@@ -96,8 +96,8 @@ instagram_id: # your instagram id
 facebook_id: # your facebook id
 discord_id: # your discord id (18-digit unique numerical identifier)
 
-# contact_note: >
-#   Email is the best way to reach me.
+contact_note: >
+  "Eventually, aspirations generate inspirations."
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
