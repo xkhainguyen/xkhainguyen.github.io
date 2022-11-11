@@ -233,8 +233,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: ["Nguyen"]
+  first_name: ["Khai", "X. K.", "Xuan Khai"]
 
   style: apa
   locale: en
