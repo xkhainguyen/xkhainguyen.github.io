@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: self-driving cars
+description: motion planning, control, state estimation and localization
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: online course
 ---
 
 Every project has a beautiful feature showcase page.
