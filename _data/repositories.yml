@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - xkhainguyen
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - xkhainguyen/self-driving-cars-spec-coursera
+  - xkhainguyen/robotics-spec-coursera
+  - xkhainguyen/ml-spec-coursera 
+  - xkhainguyen/ai-robotics-udacity
+  - xkhainguyen/geometry-l1ac-quadrotor
