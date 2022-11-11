@@ -17,9 +17,11 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am a first-year student the [M.S. in Mechanical Engineering–Research](https://www.meche.engineering.cmu.edu/education/graduate-programs/masters-research.html) program at [Carnegie Mellon Univeristy (CMU)](https://www.cmu.edu/). I am advised by [Zac Manchester](https://www.ri.cmu.edu/ri-faculty/zachary-manchester/) as a member of the [Robotic Exploration Lab](http://roboticexplorationlab.org/), in the [Robotics Institute](https://ri.cmu.edu/).
+I am a first-year student the [M.S. in Mechanical Engineering–Research](https://www.meche.engineering.cmu.edu/education/graduate-programs/masters-research.html) program at [Carnegie Mellon Univeristy (CMU)](https://www.cmu.edu/). I am advised by [Zac Manchester](https://www.ri.cmu.edu/ri-faculty/zachary-manchester/) as a member of the [Robotic Exploration Lab](http://roboticexplorationlab.org/), in the [Robotics Institute](https://ri.cmu.edu/). 
 
-Previously, I graduated with a B.S. in Mechanical Engineering from the Georgia Institute of Technology where I was advised by Prof. Ye Zhao and Prof. Matthew Gombolay. My undergraduate research focused on Trajectory Optmization and Multi-agent Reinforcement Learning.
+I am currently a [Vingroup Scholar](https://scholarships.vinuni.edu.vn/) with the mission to lead and advance the development of science and technology in Vietnam in the future.
+
+Previously, I graduated with a B.S. in [Control Engineering and Automation (Talent Program)](https://seee.hust.edu.vn/en_US/talented) from [Hanoi University of Science and Technology (HUST)](https://en.hust.edu.vn/) where I was advised by Prof. Phuong Nam Dao. My undergraduate research focused on the intersection of control theory and reinforcement learning.
 
 {% comment %} 
 In my free time, I love to cook, golf, hike, and travel, among many other things.
