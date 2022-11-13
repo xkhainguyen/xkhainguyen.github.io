@@ -5,7 +5,7 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 2
-display_categories: [online course, class, misc., work, fun]
+display_categories: [online course, class, misc]
 horizontal: false
 ---
 
