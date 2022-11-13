@@ -2,8 +2,9 @@ github_users:
   - xkhainguyen
 
 github_repos:
+  - xkhainguyen/geometry-l1ac-quadrotor
   - xkhainguyen/self-driving-cars-spec-coursera
+  - xkhainguyen/L1AC-Basics
   - xkhainguyen/robotics-spec-coursera
   - xkhainguyen/ml-spec-coursera 
   - xkhainguyen/ai-robotics-udacity
-  - xkhainguyen/geometry-l1ac-quadrotor

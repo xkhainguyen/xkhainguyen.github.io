@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: a corner of my code
+description: a corner of my code. check my GitHub for more.
 nav: true
 nav_order: 3
 ---
