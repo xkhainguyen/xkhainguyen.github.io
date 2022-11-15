@@ -5,7 +5,7 @@ permalink: /projects/
 description: take a look at what I have done beside research.
 nav: true
 nav_order: 2
-display_categories: [online course, class, misc]
+display_categories: [lab, online course, class, misc]
 horizontal: false
 ---
 

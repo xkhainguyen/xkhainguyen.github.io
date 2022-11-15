@@ -22,7 +22,7 @@ I am a first-year student the [MS in Mechanical Engineering–Research](https://
 
 I am currently a [Vingroup Scholar](https://scholarships.vinuni.edu.vn/) with the mission to lead and advance the development of science and technology in Vietnam in the future.
 
-Previously, I graduated with a BS in [Control Engineering and Automation (Talent Program)](https://seee.hust.edu.vn/en_US/talented) from [Hanoi University of Science and Technology (HUST)](https://en.hust.edu.vn/) where I was advised by Prof. Phuong Nam Dao. My undergraduate research focused on the intersection of control theory and reinforcement learning.
+Previously, I graduated with a BS in [Control Engineering and Automation (Talent Program)](https://seee.hust.edu.vn/en_US/talented) from [Hanoi University of Science and Technology (HUST)](https://en.hust.edu.vn/) where I was advised by Prof. Phuong Nam Dao. My undergraduate research focused on the intersection of control theory and reinforcement learning. Besides, I have two years of experience with Viettel Aerospace Institute as an Autopilot Engineer, where I collaborated with muultiple teams on high-speed aerial vehicle development.
 
 {% comment %} 
 In my free time, I love to cook, golf, hike, and travel, among many other things.
