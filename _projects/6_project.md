@@ -1,9 +1,9 @@
 ---
 layout: page
 title: WHRSPF
-description: "Computer Vision: image segmentation using WHRSPF"
+description: "Computer Vision.<br>Image Segmentation Using WHRSPF"
 img: assets/img/cvision.png
 redirect: https://github.com/xkhainguyen/WHRSPF
-importance: 1
+importance: 2
 category: class
 ---
