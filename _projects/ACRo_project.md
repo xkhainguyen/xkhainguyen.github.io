@@ -10,7 +10,7 @@ category: lab
 This is my previous set of projects at the Advanced Control and Robotics at Hanoi University of Science and Technology. Several papers are listed in [publications](/../publications){:target="_blank"} page. Some key points:
 
 - Explored motion/force robust controller for multiple mobile manipulators to accomplish co-operative tasks.
-- Integrated control theory to boost stability and robustness of reinforcement learning algorithms by 66%.
+- Integrated control theory to boost stability and robustness of reinforcement learning algorithms (actor-critic) by 66%.
 - Devised hierarchical formation control for multi-agent systems; scaled up and simulated with MATLAB/Simulink.
 
 <div class="row justify-content-sm-center">
@@ -22,5 +22,6 @@ This is my previous set of projects at the Advanced Control and Robotics at Hano
     </div>
 </div>
 <div class="caption">
-    On the left, RL controller with disturbance observer. Right, multiagent control with RL.
+    On the left, tracking performance is improved by RL controller with disturbance observer. <br>
+    Right, multi-agent formation control with RL.
 </div>

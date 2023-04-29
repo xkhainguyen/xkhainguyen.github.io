@@ -17,5 +17,6 @@ This is my previous set of projects at the Advanced Power Electronic System (APE
     </div>
 </div>
 <div class="caption">
-    Charging when moving.
+    Charging system beneath the road (1, 2, 3, 4). <br>
+    Charging system in the vehicle (5, 6, 7, 8).
 </div>

@@ -2,7 +2,7 @@
 layout: page
 title: driving MPC
 description: trajectory optimization and model predictive control for autonomous driving
-img: assets/img/rex_lab/drivingMPC.gif
+img: assets/rex_lab/drivingMPC.gif
 importance: 1
 category: lab
 ---
@@ -15,7 +15,7 @@ This is my previous project at the Robotic Exploration Lab at CMU. Some key poin
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/rex_lab/drivingMPC.gif" title="driving MPC" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/rex_lab/drivingMPC.gif" title="driving MPC" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
