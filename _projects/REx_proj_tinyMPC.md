@@ -1,7 +1,7 @@
 ---
 layout: page
 title: TinyMPC (ongoing)
-description: dependency-free and light-weight MPC framework for embedded systems
+description: fast and low-memory footprint MPC solver for embedded systems
 img: assets/rex_lab/tinympc_cropped.png
 importance: 1
 category: lab
