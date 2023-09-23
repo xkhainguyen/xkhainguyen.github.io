@@ -2,7 +2,7 @@
 layout: page
 title: MIT-PITT-RW
 description: full-scale autonomous racing
-img: assets/misc/mprw.jpeg
+img: assets/misc/mprw_cropped.jpeg
 importance: 1
 category: misc
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: stability sos
 description: "16-715: Advanced Robot Dynamics & Simulation - Fall 22.<br>Stability Verification Using Sum-of-Squares Programming"
-img: assets/ards/vanderpol_roa.png
+img: assets/ards/vanderpol_roa_cropped.png
 importance: 1
 category: class
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: control system design
 description: a global project-based learning program on control system design
-img: assets/img/ballbeam.gif
+img: assets/img/ballbeam_cropped.gif
 importance: 3
 category: misc
 ---

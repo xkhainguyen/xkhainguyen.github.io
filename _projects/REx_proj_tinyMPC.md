@@ -1,8 +1,8 @@
 ---
 layout: page
-title: TinyMPC (now)
+title: TinyMPC (ongoing)
 description: dependency-free and light-weight MPC framework for embedded systems
-img: assets/rex_lab/tinympc.png
+img: assets/rex_lab/tinympc_cropped.png
 importance: 1
 category: lab
 ---

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: legged mpc
-description: "24-785: Engineering Optimization - Fall 22.<br> Quadruped Locomotion Through Nonlinear Model Predictive Control"
-img: assets/engopt/leg.gif
+description: "24-785: Engineering Optimization - Fall 22.<br> Quadruped Locomotion Through Nonlinear MPC"
+img: assets/engopt/leg_cropped.gif
 importance: 1
 category: class
 ---

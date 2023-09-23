@@ -1,8 +1,8 @@
 ---
 layout: page
-title: advanced and intelligent control
+title: adv & intel. control
 description: nonlinear systems; adaptive, robust and optimal control; reinforcement learning
-img: assets/img/publication_preview/khai2021thesis2.png
+img: assets/img/publication_preview/khai2021thesis2_cropped.png
 importance: 2
 category: lab
 ---
