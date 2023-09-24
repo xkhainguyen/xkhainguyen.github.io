@@ -36,7 +36,7 @@ Previously, I graduated with a BS in [Control Engineering and Automation (Talent
 
 <h2>research</h2>
 <p>
-I am interested in control, optimization, dynamics and robot learning. I develop efficient optimization-based planning algorithms on real-time embedded systems.
+I am interested in control, optimization, dynamics and robot learning. I am developing efficient optimization-based planning algorithms on real-time embedded systems.
 </p>
 
 {% comment %} 
