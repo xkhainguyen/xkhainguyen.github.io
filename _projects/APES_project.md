@@ -1,7 +1,7 @@
 ---
 layout: page
 title: wireless power transfer
-description: static/dynamic wireless charging systems for electric vehicles
+description: static/dynamic wireless charging and power transfer systems for electric vehicles
 img: assets/img/apes_cropped.png
 importance: 5
 category: lab

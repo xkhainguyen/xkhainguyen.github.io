@@ -1,7 +1,7 @@
 ---
 layout: page
-title: TinyMPC (ongoing)
-description: fast and low-memory footprint MPC solver for embedded systems
+title: TinyMPC (now)
+description: fast and low-memory footprint MPC solver for resource-constrained embedded systems
 img: assets/rex_lab/tinympc_cropped.png
 importance: 1
 category: lab

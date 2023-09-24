@@ -8,6 +8,14 @@ p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
 }
 
+HTML {
+  font-size: 14px;
+}
+
+// body {
+//   font-size: 10px;
+// }
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -17,7 +25,7 @@ table {
     color: var(--global-text-color);
   }
   td {
-    font-size: 1rem;
+    font-size: 1.0rem;
   }
 }
 
@@ -114,7 +122,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 25%;
     .address {
       p { display: block; }
     }
