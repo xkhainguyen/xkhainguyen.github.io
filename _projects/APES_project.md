@@ -3,7 +3,7 @@ layout: page
 title: wireless power transfer
 description: static/dynamic wireless charging systems for electric vehicles
 img: assets/img/apes_cropped.png
-importance: 3
+importance: 5
 category: lab
 ---
 This is my previous set of projects at the Advanced Power Electronic System (APES) Lab at Hanoi University of Science and Technology. Several papers are listed in [publications](/../publications){:target="_blank"} page. Some key points:

@@ -3,7 +3,7 @@ layout: page
 title: driving MPC & trajopt
 description: trajectory optimization and model predictive control for autonomous driving
 img: assets/rex_lab/drivingMPC_cropped.gif
-importance: 1
+importance: 3
 category: lab
 ---
 
