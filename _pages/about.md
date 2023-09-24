@@ -34,6 +34,11 @@ Previously, I graduated with a BS in [Control Engineering and Automation (Talent
   <a href="https://github.com/xkhainguyen/">Github</a>
 </p>
 
+<h2>research</h2>
+<p>
+I am interested in control, optimization, dynamics and robot learning. I develop efficient optimization-based planning algorithms on real-time embedded systems.
+</p>
+
 {% comment %} 
 In my free time, I love to cook, golf, hike, and travel, among many other things.
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
