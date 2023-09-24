@@ -1,6 +1,6 @@
 ---
 layout: page
-title: constrained nn
+title: Constrained NN
 description: enforcing hard constraints on neural networks via differentiable optimization
 img: assets/rsf/rayen_cropped.gif
 importance: 2

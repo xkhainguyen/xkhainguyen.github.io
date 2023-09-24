@@ -1,6 +1,6 @@
 ---
 layout: page
-title: adv. & intel. control
+title: Adv. & Intel. Control
 description: nonlinear systems; adaptive, robust and optimal control; reinforcement learning
 img: assets/img/publication_preview/khai2021thesis2_cropped.png
 importance: 4
@@ -26,7 +26,16 @@ This is my previous set of projects at the Advanced Control and Robotics at Hano
     Right, multi-agent formation control with RL.
 </div>
 
-My Bachelor thesis proposed the combination of RL/ADP-based design and nonlinear methods to develop robust approximately optimal control for continuous nonlinear systems with uncertainties and disturbances. 
+My Bachelor thesis proposed the combination of RL/ADP-based design and nonlinear methods to develop robust approximately optimal control for continuous nonlinear systems with uncertainties and disturbances.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/publication_preview/bachelor_thesis.png" title="system architecture" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    System architecture of combing RL with robust/adaptive modules <br>
+</div>
 
 - One contribution is the introduction of time-varying robust integral of the sign of the error (RISE) into
 RL-based control of second-order nonlinear systems. Matlab simulation results on a 2-DOF robot arm demonstrate the improved performance of the

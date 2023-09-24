@@ -1,6 +1,6 @@
 ---
 layout: page
-title: legged mpc
+title: Legged MPC
 description: "24-785: Engineering Optimization - Fall 22.<br> Quadruped Locomotion Through Nonlinear MPC"
 img: assets/engopt/leg_cropped.gif
 importance: 1
