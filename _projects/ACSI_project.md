@@ -1,6 +1,6 @@
 ---
 layout: page
-title: auto. flip
+title: autonomous flip
 description: "24-774: Advanced Control Systems Integration - Fall 22.<br> Quadrotor Acrobatics: Autonomous Flip"
 img: assets/acsi/flip_cropped.gif
 importance: 1

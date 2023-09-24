@@ -1,6 +1,6 @@
 ---
 layout: page
-title: machine learn.
+title: machine learning
 description: supervised learning, unsupervised learning and reinforcement learning basics
 img: assets/img/ml-spec_cropped.png
 redirect: https://github.com/xkhainguyen/ml-spec-coursera

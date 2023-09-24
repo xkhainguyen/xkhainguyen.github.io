@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-subtitle: <strong>MS Research</strong> @ <a href='https://www.cmu.edu/'>CMU</a>
+subtitle: <strong>MS Research @ <a href='https://www.cmu.edu/'>CMU</a> </strong>
 
 profile:
   align: right
