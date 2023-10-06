@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: take a look at what I have done beside research.
+description: take a look at what I have got involved in
 nav: true
 nav_order: 2
 display_categories: [lab, online course, class, misc]

@@ -32,3 +32,15 @@
 "Planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
+
+"Manchester":
+  - firstname: ["Zac", "Z.", "Zachary"]
+    url: https://www.ri.cmu.edu/ri-faculty/zachary-manchester/
+
+"Plancher":
+  - firstname: ["Brian", "B."]
+    url: https://brianplancher.com/
+
+"Dao":
+  - firstname: ["Nam", "Phuong Nam", "P. N."]
+    url: https://scholar.google.com.vn/citations?user=vXl3j2wAAAAJ&hl=en
