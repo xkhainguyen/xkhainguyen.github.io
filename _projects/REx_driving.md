@@ -7,7 +7,7 @@ importance: 3
 category: lab
 ---
 
-This is my previous project at the Robotic Exploration Lab at CMU. Some key points:
+This is my Fall 2022 project at the Robotic Exploration Lab at CMU. Some key points:
 
 - Employed ALTRO, an augmented Lagrange iLQR algorithm, to solve constrained trajectory optimization problems for autonomous driving applications, using bicycle models.
 - Investigated local planning and control frameworks, such as time-varying LQR and model predictive control (MPC) using OSQP, to ensure safe and efficient operation, while handling control limits and obstacles.

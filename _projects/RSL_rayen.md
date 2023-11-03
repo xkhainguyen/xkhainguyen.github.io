@@ -7,4 +7,6 @@ importance: 2
 category: lab
 ---
 
-This is my project at the Robotic System Lab during the ETH Robotics Student Fellowship.
+In collaboration with the Robotic System Lab during the ETH Robotics Student Fellowship, I have been leading the effort in enforcing hard constraints on neural networks.
+
+For a summary, visit <https://center-for-robotics.ethz.ch/education/robotics-student-fellowship/2023-Robotics-Student-Fellows.html>.
