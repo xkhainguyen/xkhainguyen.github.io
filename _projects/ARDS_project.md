@@ -15,7 +15,7 @@ Stability Verification via SOS \| Python, Drake, Mosek \| [[pdf](/assets/ards/F2
 
 ---
 
-**Abstract** -- We explore sampling-based sum-of-squares (SOS) programming as a technique to verify the stability of nonlinear systems. We provide a review of Lyapunov analysis, traditional SOS stability verification, and sampling-based SOS verification, then apply these methods to two nonlinear systems. We demonstrate that sampling-based SOS verification offers significant advantages over the traditional formulation in terms of problem size and the amount of time required to obtain a solution. The code for this project is available at [link](https://github.com/EpicDuckPotato/final_project_16715.git).
+**Abstract**---We explore sampling-based sum-of-squares (SOS) programming as a technique to verify the stability of nonlinear systems. We provide a review of Lyapunov analysis, traditional SOS stability verification, and sampling-based SOS verification, then apply these methods to two nonlinear systems. We demonstrate that sampling-based SOS verification offers significant advantages over the traditional formulation in terms of problem size and the amount of time required to obtain a solution. The code for this project is available at [link](https://github.com/EpicDuckPotato/final_project_16715.git).
 
 **Results**
 
