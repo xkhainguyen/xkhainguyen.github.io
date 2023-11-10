@@ -8,7 +8,7 @@ category: class
 ---
 This is my group project within the course [24-785: Engineering Optimization](/assets/engopt/Syllabus-1.pdf) at Carnegie Mellon University in Fall 2022 semester. Some key points:
 
-Nonlinear MPC on Quadruped Robot \| C/C++, OCS2 \| [[pdf](/assets/engopt/24_785_Project.pdf)] [[slides](https://docs.google.com/presentation/d/1OexStY2G9-W3HHvMdy2gL0D_vkJwWXlENMZv1wKerUM/edit?usp=sharing)]
+Nonlinear MPC on Quadruped Robot \| C/C++, OCS2 \| [[pdf](/assets/engopt/24_785_Project.pdf)] [[slides](https://docs.google.com/presentation/d/1JM6_66rsDxseqxBFta2RHyDQaOb0_o3t/edit?usp=sharing&ouid=112223428720998799657&rtpof=true&sd=true)]
 
 - Collaborated to establish nonlinear MPC formulation of quadruped robots, considering tracking errors, centroidal dynamics, joint limits and friction constraint; achieved dynamic walking gait.
 - Analyzed MPC implementation on ANYmal from an optimization perspective including SQP formulation and sensitivity analysis.
