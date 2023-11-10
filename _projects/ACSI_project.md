@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Autonomous Flip
-description: "24-774: Advanced Control Systems Integration - Fall 22.<br> Drone Acrobatics: Autonomous Flip"
+description: "24-774: Advanced Control Systems Integration - Fall 22.<br> 🔄 Drone Acrobatics: Autonomous Flip"
 img: assets/acsi/flip_cropped.gif
 importance: 1
 category: class
