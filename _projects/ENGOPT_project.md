@@ -8,9 +8,12 @@ category: class
 ---
 This is my group project within the course [24-785: Engineering Optimization](/assets/engopt/Syllabus-1.pdf) at Carnegie Mellon University in Fall 2022 semester. Some key points:
 
-Nonlinear MPC on Quadruped Robot | C/C++	
+Nonlinear MPC on Quadruped Robot \| C/C++, OCS2 \| [[pdf](/assets/engopt/24_785_Project.pdf)] [[slides](https://docs.google.com/presentation/d/1OexStY2G9-W3HHvMdy2gL0D_vkJwWXlENMZv1wKerUM/edit?usp=sharing)]
+
 - Collaborated to establish nonlinear MPC formulation of quadruped robots, considering tracking errors, centroidal dynamics, joint limits and friction constraint; achieved dynamic walking gait.
 - Analyzed MPC implementation on ANYmal from an optimization perspective including SQP formulation and sensitivity analysis.
+
+---
 
 **Abstract** -- The control of dynamic-legged locomotion poses a significant challenge due to the under-actuation of the system and the uncertainty inherent in the external environment. In this project, we implemented a control framework based on nonlinear model predictive control (NMPC) to enable the dynamic walking of a quadruped robot. The final deliverable is a controller that can control the ANYmal robot in simulation to walk steadily on flat ground with a trotting gait using the OCS2 toolbox and the sequential quadratic programming (SQP) solver. To achieve this, we solved the optimization problem using real-time iteration, filter-based line search, and constraint projection. Our results indicate that the solver is sensitive to the initial guess of states and is able to find a local minimum that is very close to the global minimum, as validated based on physics.
 

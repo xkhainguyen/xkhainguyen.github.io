@@ -6,11 +6,14 @@ img: assets/ards/vanderpol_roa_cropped.png
 importance: 1
 category: class
 ---
-This is my group project within the course [16-715: Advanced Robot Dynamics & Simulation](https://github.com/dynamics-simulation-16-715) at Carnegie Mellon University in Fall 2022 semester. Some key points:
+This is my project within the course [16-715: Advanced Robot Dynamics & Simulation](https://github.com/dynamics-simulation-16-715) at Carnegie Mellon University in Fall 2022 semester. Some key points:
 
-Stability Verification via SOS | Python, Drake, Mosek
-- Verified the Lyapunov stability of dynamical systems by formulating and solving sum-of-squares programs with Mosek.
+Stability Verification via SOS \| Python, Drake, Mosek \| [[pdf](/assets/ards/F22_ARDS_Report.pdf)] [[slides](https://docs.google.com/presentation/d/1_4_3-siBjZcEE_0RPOMISLzRe4aqkGiOhhM8N28gGm0/edit?usp=sharing)]
+
+- Verified the Lyapunov stability of dynamical systems by formulating and solving sum-of-squares programs with Mosek, compared with Drake.
 - Implemented and compared three different approaches; sample-based method gained tighter solution 30 times faster than standard one.
+
+---
 
 **Abstract** -- We explore sampling-based sum-of-squares (SOS) programming as a technique to verify the stability of nonlinear systems. We provide a review of Lyapunov analysis, traditional SOS stability verification, and sampling-based SOS verification, then apply these methods to two nonlinear systems. We demonstrate that sampling-based SOS verification offers significant advantages over the traditional formulation in terms of problem size and the amount of time required to obtain a solution. The code for this project is available at [link](https://github.com/EpicDuckPotato/final_project_16715.git).
 
