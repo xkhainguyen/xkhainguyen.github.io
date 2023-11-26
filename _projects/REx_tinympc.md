@@ -13,4 +13,4 @@ But that's not all! TinyMPC is open-source and well-documented, ensuring everyon
 
 For more details, visit <https://tinympc.org>.
 
-Side-story: I experimented with various methods and started with augmented Lagrangian (AL) with linear-quadratic regulator (LQR) ([repo](https://github.com/RoboticExplorationLab/TinyMPC-AL)). However, I found these methods to be too slow. We switched to the alternating method of multipliers (ADMM) and are seeing promising results on hardware.
+Side-story: I experimented with various methods and started with augmented Lagrangian (AL) with linear-quadratic regulator (LQR) ([repo](https://github.com/RoboticExplorationLab/TinyMPC-AL)). The report for Optimal Control and RL class is [here](/assets/pdf/OCRL_Final_Report.pdf). However, I found these methods to be too slow. We switched to the alternating method of multipliers (ADMM) and are seeing promising results on hardware.
