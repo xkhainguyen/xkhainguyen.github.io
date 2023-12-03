@@ -37,4 +37,4 @@ Previously, I graduated with a [BS in Control Engineering and Automation--Talent
 
 <h2>research</h2>
 
-My research focuses on the intersection of `control`, `optimization`, and `learning`, aiming to create novel theoretical frameworks and efficient computational machinery for *safe and agile robotics*.
+My research focuses on the intersection of `control`, `optimization`, and `learning`, aiming to create novel theoretical frameworks and efficient computational machinery for *agile and safe robotics*.
