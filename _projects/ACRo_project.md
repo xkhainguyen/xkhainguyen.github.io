@@ -2,7 +2,7 @@
 layout: page
 title: Unifying Control and Learning 
 description: nonlinear systems; adaptive, robust and optimal control; reinforcement learning
-img: assets/img/publication_preview/khai2021thesis2_cropped.png
+img: assets/img/acro_rs_cropped.png
 importance: 4
 category: lab
 ---
@@ -26,7 +26,7 @@ My undergraduate thesis [[pdf]](assets/pdf/my_thesis.pdf) explored the **superpo
     </div>
 </div>
 <div class="caption">
-    Superpositional structure composes RL with robust/adaptive modules <br>
+    Superpositional structure composes RL with robust/adaptive modules
 </div>
 
 - The first contribution is the introduction of time-varying robust integral of the sign of the error (RISE) into
@@ -40,7 +40,7 @@ RL-based control of second-order nonlinear systems. Matlab simulation results on
     </div>
 </div>
 <div class="caption">
-    A disturbance observer enables online adaptation, reducing tracking errors by 66% and sample number by 3 times <br>
+    A disturbance observer enables online adaptation, reducing tracking errors by 66% and sample number by 3 times
 </div>
 
 ---
@@ -55,7 +55,7 @@ In our journal paper [[html]](https://onlinelibrary.wiley.com/doi/10.1002/rnc.70
     </div>
 </div>
 <div class="caption">
-    The hierachical structure composes high-level formation control with low-level RL policies <br>
+    The hierachical structure composes high-level formation control with low-level RL policies
 </div>
 
 Leveraging the **Lyapunov theorem**, my advisor and I derived the uniformly ultimate boundedness stability (UUB) of the entire system.

@@ -9,7 +9,7 @@ category: lab
 
 I'm co-leading the development of TinyMPC, a specialized control solver for embedded systems. Our main goals are to make it faster and use less memory. In benchmarks, TinyMPC outperforms OSQP in both speed and memory usage on the *Teensy microcontroller*. We've integrated TinyMPC on the Crazyflie, a 27 g nano-quadrotor, enabling it to maneuver and avoid obstacles effectively.
 
-But that's not all! TinyMPC is open-source and well-documented, ensuring everyone can access real-time optimal control easily.
+But that's not all! TinyMPC is **open-source** and well-documented, ensuring everyone can access real-time optimal control easily.
 
 For more details, visit <https://tinympc.org>.
 
