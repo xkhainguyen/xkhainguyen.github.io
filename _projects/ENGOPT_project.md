@@ -54,7 +54,7 @@ at one MPC step and analyse the results.
 The general formulation of the optimal control problem can be given by:
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.html path="assets/engopt/formulation.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -119,7 +119,7 @@ function, and constraints are simply discretized into discrete counterparts. We 
 following discretized problem:
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.html path="assets/engopt/formulation2.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -145,7 +145,7 @@ global minimum. Nevertheless, our solution is likely to be very close to the glo
 on physical principles.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.html path="assets/engopt/good_guess.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -165,7 +165,7 @@ iteration, the step length obtained from solving the quadratic programming probl
 small. The whole SQP was completed in an average of 8 ms.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.html path="assets/engopt/bad_guess.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
