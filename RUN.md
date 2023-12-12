@@ -3,7 +3,7 @@
 ## Build locally
 
 ```bash
-bundle exec jekyll serve --lsi
+docker compose up
 ```
 
 ## Change overall size
