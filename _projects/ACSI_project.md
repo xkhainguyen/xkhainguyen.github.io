@@ -103,7 +103,7 @@ tuned attitude rate PID, and PID vs. LQR stabilizer. Single flip is tested first
     Left: LQR hovering <br> Right: Autonomous flip
 </div>
 
-## Conclusion
+## Conclusions
 
 This work has provided a complete flipping maneuver
 pipeline which is very challenging for a micro quadrotor’s
