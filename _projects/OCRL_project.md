@@ -90,94 +90,198 @@ Below is the pseudo-code of our AL-TVLQR algorithm.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/acsi/plan_flip.png" title="Title" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/ocrl/al_alg.png" title="Title" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Generalized flipping speed reference in previous work
+    Augmented Lagrangian TVLQR
 </div>
 
-The flipping planner outputs a trajectory for the quadrotor
-to follow. This is divided into five stages as follows:
+Note the subtle difference between AL here and in iterative
+LQR (iLQR). In iLQR, one will naturally approximate the
+cost with second-order Taylor expansion about the current
+trajectory, then group the cost in gradient and Hessian
+terms, not precisely like linear and quadratic terms like ours.
+Third-rank tensors are ignored. Moreover, one will solve the
+backward pass and forward pass iteratively until convergence
+so that any mismatch due to nonlinearity can be eliminated.
+Constraints have to be in linear form so they can be
+substituted and grouped into corresponding terms.
 
-- Ascent phase: Here the quadrotor is boosted to obtain
-moments and inertia before executing the flip.
-- Increasing angular velocity phase: In this stage, the roll
-rate slowly increases from 0 to ωmax.
-- Max angular velocity phase: At this stage the ωmax is
-commanded.
-- Decreasing angular velocity phase: In this stage, the roll
-rate decreases from ωmax to 0.
-- Stabilizing phase: This phase is activated after a complete
-flip. The quadrotor is stabilized and enters normal flight
-mode
+### The TinyMPC Framework
 
-### Flipping Controller
+Functions to compute state and control matrices were generated using `Symbolics.jl` in Julia by symbolically compute the Jacobians of the given robot’s dynamics function
+with respect to the state control variables. These symbolic
+functions were converted to C functions. Reference trajectories were generated using ALTRO and similarly copied into
+C code format for use on a microcontroller.
 
-Following the previous work, a [PD-like controller](https://ctms.engin.umich.edu/CTMS/index.php?example=Introduction&section=ControlPID) is designed for tracking the angular velocity from the planner.
-
-$$
-u(t) = k_p e(t) + k_d \dot{e}(t)
-$$
-
-The PD controller can be tuned to obtain a desired behavior from the controller by varying the $$k_p$$ and $$k_d$$ terms. This controller provides the control efforts in the form of three torques, and a thrust is set as the drone’s weight to maintain a constant height and not to saturate the actuators.
-
-### Stabilizing Controller
-
-An [LQR controller](http://underactuated.mit.edu/lqr.html) is designed to re-stabilize the drone after a complete flip. It is noteworthy that we require a robust controller because initial errors for this controller can be significant. LQR controller is a full-state feedback controller and is designed using the linearized mathematical model of the quadrotor. An optimization problem is solved to obtain the gains of the LQR controller. The LQR controller is tuned by varying the $$Q$$ and $$R$$ matrices to get the desired performance from the controller.
+We use the SLAP (Simple Linear Algebra Protocols)
+library developed by Dr. Brian Jackson for matrix computations. SLAP was chosen because it is tested and lightweight
+and because of our architectural decision to have as few
+dependencies as possible. We modified SLAP, to replace the backend of some of the most commonly
+used functions with existing implementations that are much
+faster and can be precompiled for use with SLAP.
 
 ## Results
 
-There are several testing cases for flipping maneuvers depending on open-loop vs. closed-loop planner, not tuned vs.
-tuned attitude rate PID, and PID vs. LQR stabilizer. Single flip is tested first with detailed analysis before moving to the more challenging cases. Please see our report for more details.
+After having verified the correctness of our algorithm by
+comparing it with the solution from ALTRO in Julia, we
+chose to implement our algorithm on three common and
+accessible microcontrollers as a demonstration of the range
+of embedded systems on which our solution can run. We
+chose to implement our algorithm on a Teensy 4.1, an STM
+NucleoF401RE, and an STMF405 on a Crazyflie 2.1. The Crazyflie drone is a common research
+platform for autonomous and distributed swarm algorithm
+research. We chose to use it because it is small and thus has
+fast attitude dynamics that we want to show can be stabilized
+by TinyMPC.
+
+### Speed Increases
+
+After profiling our C implementation, we found the algorithm was spending around
+77% of its time in the SLAP, the library we used as our
+matrix processing backend. Specifically, the algorithm was
+in the matrix add and multiply function around 75% of the time. This function multiplies two matrices, multiplies
+them by a scalar, then sums the result with a third matrix
+multiplied by a second scalar to produce a final result. To
+speed up our implementation, we replaced the original SLAP
+implementation with Eigen 3.1 matrices. This adds a new
+dependency to our implementation, but since it is added as a
+backend to the SLAP library, users can simply download a
+precompiled version of SLAP and not need to worry about
+downloading and compiling Eigen themselves. Replacing the
+SLAP backend with Eigen halved the runtime of our MPC
+function, allowing us to run the dynamic bicycle model in
+real time (faster than 50Hz) with a horizon length of 4 knot
+points. This speed increase is still not
+enough to run the quadrotor at 50Hz, even with only two
+knot points in the horizon.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.html path="assets/acsi/flip_steps.png" title="Title" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/ocrl/MPC runtime vs Horizon Length.png" title="Title" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Snapshots of our flipping maneuver from the demo video
+    MPC runtime vs. horizon length using Eigen as the backend to the
+SLAP linear algebra library
 </div>
 
+We take advantage of the
+constantly updating nature of MPC and the fact that knot
+points farther into the future do not have to be predicted
+as accurately as those closer to the current state of the
+robot by increasing the time step for later knot points. This
+allows the MPC algorithm to cover the same amount of
+horizon time using fewer knot points, decreasing runtime
+while achieving similar performance. This works primarily because the fast dynamics of the system need to be stabilized
+immediately while obstacle avoidance, which relies more on
+computing the position of the robot, generally has slower
+dynamics and thus can be computed using a larger time
+step. On the quadrotor, this was implemented by linearizing
+two dynamics functions about hover, one with the initial
+fast time step and one with the slow time step used for
+the remainder of the horizon time.
+
 <div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-1 mt-md-0">
-        <iframe height="600" src="https://www.youtube.com/embed/81XYgRthhc0" title="YouTube video player" frameborder="0" style="border: 0px solid #bbb; border-radius: 10px; width: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-    </div>
-    <div class="col-sm-6 mt-1 mt-md-0">
-        <iframe height="600" src="https://www.youtube.com/embed/y1OanjJ8mtQ" title="YouTube video player" frameborder="0" style="border: 0px solid #bbb; border-radius: 10px; width: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/ocrl/MPC runtime vs time steps.png" title="Title" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Left: LQR hovering <br> Right: Autonomous flip
+    MPC runtime vs. horizon length using variable sampling times.
+The format of the x-axis is [number of steps at dt=0.01, number of steps at
+dt=0.04] The final horizon times are all equal to 0.2 seconds but each are
+achieved with a different number of knot points.
 </div>
+
+The results in figures show results from running
+on the STM NucleoF401RE. The F401RE uses a Cortex M4
+processor running at a maximum clock frequency of 16 MHz.
+The function runtimes from this processor are far too slow
+to be run on the Crazyflie quadrotor. The exact same code
+was run on a Teensy 4.1 in a fraction of the time. The Teensy 4.1 uses a Cortex M7 chip that, in
+our tests, was run at a clock frequency of 600 MHz. This
+is the highest natively supported clock frequency that does
+not require active cooling. The Teensy ran our MPC code
+in under 1 millisecond for each horizon length shown in
+the figure. With 130 knot points for the horizon length, the
+Teensy ran the function in 20 milliseconds, which is an MPC
+runtime frequency of 50Hz. This is the same frequency used
+to control the drone using LQR, and is promising given we’re
+able to run the Cortex M4 on the Crazyflie at the speed of
+the Teensy 4.1.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/ocrl/MPC runtime vs time steps teensy.png" title="Title" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    MPC runtime vs. horizon length on a Teensy 4.1 running at 600
+MHz
+</div>
+
+Because our MPC algorithm does not yet run fast enough
+to control a quadrotor, we opted to solve for the infinite
+horizon LQR gains for the model we obtained from Bitcraze,
+the developers of the Crazyflie, and implement our own
+controller on their software stack. Directly copying the
+optimal gain matrix obtained from infinite horizon LQR
+caused the drone to exhibit a stable, sinusoidal wobbling
+behavior during flight. This wobbling was removed by handtuning the optimal gain matrix. We then generated position
+and velocity knot points for a figure-8 trajectory we wanted
+the drone to follow. Although the drone did not follow the
+trajectory properly, it did stay in the air for the duration of
+the trajectory.
 
 ## Conclusions
 
-This work has provided a complete flipping maneuver
-pipeline which is very challenging for a micro quadrotor’s
-acrobatic application. Our approach divides the process into
-three steps: ascent, flipping and re-stabilization. Following
-that, we developed a flipping planner, a flipping controller,
-and a stabilizing controller. An open-loop flipping planner
-will generate a three-stage attitude rate reference based on
-time, compared to the generalized flipping angle feedback of
-a closed-loop one. This planner must consider the limited
-sensing and actuating capacity of the quadrotor. To track
-that reference, we use a flipping controller, which has a PD-like architecture, then switch to a regular controller after
-completing a flip. For that re-stabilization phase, both cascaded
-PID and LQR controllers are considered. These modules are
-implemented via Python API as well as directly Crazyflie
-firmware. Finally, this paper has detailed experimental testing
-and demonstrated successful flip maneuvers. However, the
-majority of the tests witness failures due to many different
-factors, including communication delay, open-loop drawbacks,
-and not-robust-enough LQR controllers.
-Many modifications to the current pipeline can be made to
-improve the performance in the future. Firstly, the closed-loop
-planner, which needs more integration tests, has provided the
-stabilizing controller with good initial conditions. Secondly,
-all modules should be directly implemented in the on-board
-microprocessor, which will significantly help with the delay problem. Last but not least, more accurate state measurements
-and different architectures can boost the LQR stabilizer’s
-robustness and overall performance.
+The hardware results above highlight the computational
+complexities of running an MPC algorithm in real-time on
+an underpowered micro controller. We have demonstrated
+that our algorithm may run in real-time on devices like the
+Teensy 4.1 which runs on a Cortex M7 processor running at
+up to 1GHz. There is still work to do to demonstrate these
+results on power and resource constrained devices such as
+the Crazyflie 2.1 running a Cortex M4 chip.
+We have not yet reduced the runtime of our algorithm to
+the point where it may be run on the Crazyflie’s processor
+in real-time, but there are a few things we can implement to
+speed up our algorithm.
+Our future work is proposed as below:
+
+Algorithm: We plan to create a new version of the
+solver using ADMM rather than AL to help reduce the
+required online computation. ADMM will require fewer
+matrix-matrix multiplications (from matrix factorizations),
+which is primarily what is slowing down our code.
+
+Conic Constraints: We have attempted to incorporate
+conic constraint handling, but this is still a work in progress.
+
+Model Hierarchy Predictive Control: An additional
+method implemented to increase performance is a hierarchical dynamics model scheme, where the first few time
+steps use the full model dynamics and the remainder use
+increasingly simplified versions of the robot’s dynamics.
+This can be done for similar reasons as variable sampling
+time, discussed in V-A.2. Doing this reduces the computational complexity of the Jacobians for later time steps
+which decreases overall runtime. Time steps closer to the
+first horizon knot point require higher-accuracy dynamics to
+correctly determine the robot’s future state, but later time
+steps only need to look at low frequency dynamics since
+the higher frequency dynamics will likely be incorrectly
+estimated anyway. These low frequency dynamics tend to
+be attributed to much simpler models, such as point mass
+models, and can be used to determine a subset of the robot’s
+state farther into the future, such as its center of mass. Often,
+center of mass is all that is required when trying to avoid
+obstacles farther into the future.
+
+Code Generation: Following applications like OSQP,
+Simulink, and SLinGen, we would like to be able to generate
+C code from a higher level programming language. The
+overhead of extra work required to do this pays off in the
+form of a much simpler user interface and being able to
+optimize for a wide variety of specific platforms using a
+single program.
