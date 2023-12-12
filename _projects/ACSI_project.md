@@ -20,6 +20,8 @@ Drone Acrobatics: Autonomous Flip \| C/C++, MATLAB/Simulink, Python, Crazyflie \
 
 ---
 
+For more details, please check our report.
+
 ## Introduction
 
 Aggressive maneuvers for drones have been a topic studied for a long time. The limited computing power and sensor
