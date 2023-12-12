@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Advanced & Intel. Control
+title: Unifying Control and Learning 
 description: nonlinear systems; adaptive, robust and optimal control; reinforcement learning
 img: assets/img/publication_preview/khai2021thesis2_cropped.png
 importance: 4
