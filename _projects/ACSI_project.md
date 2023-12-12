@@ -20,7 +20,7 @@ Drone Acrobatics: Autonomous Flip \| C/C++, MATLAB/Simulink, Python, Crazyflie \
 
 ---
 
-For more details, please check our report.
+<span style="color:blue"> For more details, please check our report.</span>
 
 ## Introduction
 

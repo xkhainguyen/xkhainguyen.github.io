@@ -19,7 +19,7 @@ Nonlinear MPC on Quadruped Robot \| C/C++, OCS2 \| [[pdf](/assets/engopt/24_785_
 
 ---
 
-For more details, please check our report.
+<span style="color:blue"> For more details, please check our report.</span>
 
 ## Introduction
 

@@ -2,7 +2,7 @@
 layout: page
 title: TinyMPC
 description: "CMU 16-715: Optimal Control & Reinforcement Learning - Spring 23.<br> 🎮 TinyMPC: A Model Predictive Control for Embedded Applications"
-img: assets/rex_lab/tinympc_cropped.png
+img: assets/ocrl/tinympc_cropped.png
 # redirect: /projects/REx_tinympc/
 importance: 1
 category: class
@@ -35,7 +35,7 @@ to stabilize the drone at 50Hz.
 
 ---
 
-For more details, please check our report.
+<span style="color:blue"> For more details, please check our report.</span>
 
 ## Introduction
 
@@ -265,7 +265,7 @@ method implemented to increase performance is a hierarchical dynamics model sche
 steps use the full model dynamics and the remainder use
 increasingly simplified versions of the robot’s dynamics.
 This can be done for similar reasons as variable sampling
-time, discussed in V-A.2. Doing this reduces the computational complexity of the Jacobians for later time steps
+time. Doing this reduces the computational complexity of the Jacobians for later time steps
 which decreases overall runtime. Time steps closer to the
 first horizon knot point require higher-accuracy dynamics to
 correctly determine the robot’s future state, but later time
@@ -285,3 +285,5 @@ overhead of extra work required to do this pays off in the
 form of a much simpler user interface and being able to
 optimize for a wide variety of specific platforms using a
 single program.
+
+<span style="color:blue"> Based on this class project, we keep developing TinyMPC and achieve great success. Check out [tinympc.org](https://tinympc.org/).</span>
