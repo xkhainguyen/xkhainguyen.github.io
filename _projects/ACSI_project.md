@@ -78,7 +78,7 @@ An [LQR controller](http://underactuated.mit.edu/lqr.html) is designed to re-sta
 ## Results
 
 There are several testing cases for flipping maneuvers depending on open-loop vs. closed-loop planner, not tuned vs.
-tuned attitude rate PID, and PID vs. LQR stabilizer. Single flip is tested first with detailed analysis before moving to the more challenging cases.
+tuned attitude rate PID, and PID vs. LQR stabilizer. Single flip is tested first with detailed analysis before moving to the more challenging cases. Please see our report for more details.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-12 mt-3 mt-md-0">
