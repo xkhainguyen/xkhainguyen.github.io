@@ -1,4 +1,7 @@
 
-          <div class="publications">
-            {% bibliography -f {{ site.scholar.bibliography }} --group_by none --query @*[selected=true]* %}
-          </div>
+<div class="publications">
+  <!-- <h2>selected publications</h2> -->
+  {% bibliography -f preprints --group_by none -q @*[selected=true]* %}
+  {% bibliography -f papers --group_by none -q @*[selected=true]* %}
+  {% bibliography -f reports --group_by none -q @*[selected=true]* %}
+</div>
