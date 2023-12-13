@@ -3,7 +3,7 @@ layout: page
 title: Stability SOS
 description: "CMU 16-715: Advanced Robot Dynamics & Simulation - Fall 22.<br>🆘 Stability Verification Using Sum-of-Squares Programming"
 img: assets/ards/vanderpol_roa_cropped.png
-importance: 1
+importance: 2
 category: class
 ---
 This is my project within the course [16-715: Advanced Robot Dynamics & Simulation](https://github.com/dynamics-simulation-16-715) at Carnegie Mellon University in Fall 2022 semester. Some key points:

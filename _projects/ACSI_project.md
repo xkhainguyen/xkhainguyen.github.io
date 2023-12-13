@@ -3,7 +3,7 @@ layout: page
 title: Autonomous Flip
 description: "CMU 24-774: Advanced Control Systems Integration - Fall 22.<br> 🔄 Drone Acrobatics: Autonomous Flip"
 img: assets/acsi/flip_cropped.gif
-importance: 1
+importance: 2
 category: class
 ---
 This is my project within the course [24-774: Advanced Control Systems Integration](/assets/acsi/24-774%20Syllabus%20Fall%202022.pdf) at Carnegie Mellon University in Fall 2022 semester. Some key points:
