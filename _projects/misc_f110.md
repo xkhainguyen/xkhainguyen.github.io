@@ -1,6 +1,6 @@
 ---
 layout: page
-title: F1tenth 
+title: F1TENTH 
 description: 🏁 1/10th-scale autonomous racing
 img: assets/misc/f110_cropped.png
 importance: 1
