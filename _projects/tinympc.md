@@ -15,7 +15,7 @@ For more details, visit <https://tinympc.org>.
 
 Side-story:
 
-- I experimented with various methods and started with augmented Lagrangian (AL) with linear-quadratic regulator (LQR), which can also handle nonlinear dynamics ([repo](https://github.com/RoboticExplorationLab/TinyMPC-AL)). The report for Optimal Control and RL class is [here](/assets/pdf/OCRL_Final_Report.pdf). However, we found these methods to be too slow. We switched to the alternating method of multipliers (ADMM) and are seeing promising results on hardware.
+- We started from our Optimal Control & Reinforcement Learning class [project](/projects/OCRL_project). I experimented with various methods and started with augmented Lagrangian (AL) with linear-quadratic regulator (LQR), which can also handle nonlinear dynamics [[repo]](https://github.com/RoboticExplorationLab/TinyMPC-AL). However, we found these methods to be too slow. We switched to the alternating method of multipliers (ADMM) and are seeing promising results on hardware.
 
 - I did a perching demo with TinyMPC here just for fun. It crashed since I didn't use any sticking mechanism.
 

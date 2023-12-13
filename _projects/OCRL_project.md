@@ -167,6 +167,8 @@ knot points in the horizon.
 SLAP linear algebra library
 </div>
 
+### Variable Sampling Time
+
 We take advantage of the
 constantly updating nature of MPC and the fact that knot
 points farther into the future do not have to be predicted
