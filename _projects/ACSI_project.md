@@ -40,7 +40,7 @@ controllers need to track to perform the flip. The design of the trajectory need
 We split the complex maneuver of flip into five stages to for easier representation in mathematical forms and switch between them based on time. The primary three middle planning stages can be seen in the figure below.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/acsi/plan_flip.png" title="Title" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

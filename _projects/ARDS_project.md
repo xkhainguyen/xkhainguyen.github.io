@@ -79,7 +79,7 @@ already polynomial. If the dynamics $$f$$ are not polynomial, we
 can approximate them as polynomial using a Taylor expansion.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/ards/binary_search_sos.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -96,7 +96,7 @@ optimization problem for all real-valued $$x$$, we only solve it
 at a set of numerical samples $$\{x_i\}$$ in the algebraic variety.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/ards/sampling_sos.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -126,7 +126,7 @@ of the candidate V is increased, tighter ROA approximations
 could be found.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/ards/vanderpol_roa.png" title="vanderpol roa" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -143,7 +143,7 @@ $$\tau(q, v)$$ to drive the full cartpole state, consisting of configuration and
 the cart position and joint angle ($$N = 1$$ here).
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/ards/cartpole.png" title="cartpole" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
