@@ -19,4 +19,4 @@ Side-story:
 
 - I did a perching demo with TinyMPC here just for fun. It crashed since I didn't use any sticking mechanism.
 
-<iframe height="400" src="https://www.youtube.com/embed/KoU2wr9nAFI?si=xOhNq-maZIsaCQWE" title="YouTube video player" frameborder="0" style="border: 0px solid #bbb; border-radius: 10px; width: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<iframe height="433" src="https://www.youtube.com/embed/KoU2wr9nAFI?si=xOhNq-maZIsaCQWE" title="YouTube video player" frameborder="0" style="border: 0px solid #bbb; border-radius: 10px; width: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>

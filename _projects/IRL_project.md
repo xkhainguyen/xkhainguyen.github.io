@@ -8,7 +8,7 @@ category: class
 ---
 This is my project within the course [16-813: Introduction to Robot Learning](https://16-831.github.io/) at Carnegie Mellon University in Fall 2023 semester. Some key points:
 
-Breadth vs Depth: Benchmarking Generalists and Specialists in Robot Learning \| Python, PyTorch, IssacGym, Unitree Go1 \|
+Breadth vs Depth: Benchmarking Generalist and Specialist Policies in Robot Agility Learning \| Python, PyTorch, IssacGym, Unitree Go1 \|
  <!-- [[pdf](/assets/ards/F22_ARDS_Report.pdf)] [[slides](https://docs.google.com/presentation/d/1_4_3-siBjZcEE_0RPOMISLzRe4aqkGiOhhM8N28gGm0/edit?usp=sharing)] -->
 
 ---
@@ -24,9 +24,19 @@ Breadth vs Depth: Benchmarking Generalists and Specialists in Robot Learning \| 
 
 ---
 
-**Abstract**---The motivation for this project stems from the growing interest and importance of agile robots in various fields, including entertainment, search and rescue operations, and everyday tasks. As robots become more integrated into human environments, their ability to navigate complex and dynamic environments becomes crucial. Understanding whether a generalist or specialist approach is more effective in robotic parkour has direct implications for real-world applications. For instance, a generalist robot may be more versatile in handling different types of obstacles commonly found in various environments, while a specialist robot may excel in specific parkour scenarios. Knowing which approach is more effective can guide the development of robots for specific tasks or environments.
-By addressing these motivations, the project can contribute valuable insights to the field of robotics and help advance the development of robots that are capable of navigating and interacting with complex environments effectively.
+**Abstract**---The motivation for our project stems from the growing interest and importance of agile robots in various fields, including entertainment, search and rescue operations, and everyday tasks. As robots become more integrated into human environments, their ability to navigate complex and dynamic environments becomes crucial. Understanding whether a generalist or specialist approach is more effective in robot agility has direct implications for real-world applications. For instance, a generalist robot may be more versatile in handling different types of terrain commonly found in various environments, while a specialist robot may excel in specific scenarios. Knowing which approach is more effective can guide the development of robots for specific tasks or environments.
+By addressing these motivations, our project can contribute valuable insights to the field of robotics and help advance athletic intelligence that enables navigating and interacting with complex environments effectively.
 
 ---
 
 <span style="color:blue"> Stay tuned for more updates!</span>
+
+<iframe height="433" src="https://www.youtube.com/embed/_TqcasN4f5c?si=T5FXf7TeYjyc5ist" title="YouTube video player" frameborder="0" style="border: 0px solid #bbb; border-radius: 10px; width: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<div class="caption">
+    Go1 robot is able to traverse challenging terrain: steps, gaps, narrow beams
+</div>
+
+## Conclusions
+
+Our research lays the foundation for a comprehensive benchmark in evaluating diverse learning-based approaches for robot agility. We introduce three distinct baselines: i) specialist policies that acquire individual skills through on-policy reinforcement learning; ii) a hierarchical structure featuring a selector policy that learns to choose the appropriate behavior among these specialists; and iii) a true generalist policy that simultaneously learns to handle all tasks. Additionally, we explore the selector policy's performance under two training paradigms: on-policy reinforcement learning and imitation learning based on an oracle policy.
+

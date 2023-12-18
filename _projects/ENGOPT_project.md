@@ -21,6 +21,15 @@ Nonlinear MPC on Quadruped Robot \| C/C++, OCS2 \| [[pdf](/assets/engopt/24_785_
 
 <span style="color:blue"> For more details, please check our report.</span>
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/engopt/leg.gif" title="legged mpc" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Quaduped walking gait
+</div>
+
 ## Introduction
 
 Control of highly dynamic legged robots has been a challenging problem due to the under-actuation of
@@ -186,15 +195,6 @@ guess of the input trajectory and recorded the results. In the left side of the
 figure, the multiplier is negative and the initial guess is infeasible because it is impossible to produce
 a negative ground reaction force. We can see that these significantly infeasible guesses had a worse
 effect on the solver’s performance.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/engopt/leg.gif" title="legged mpc" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Quaduped walking gait
-</div>
 
 ## Conclusions
 

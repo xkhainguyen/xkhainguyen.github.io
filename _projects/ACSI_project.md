@@ -22,6 +22,18 @@ Drone Acrobatics: Autonomous Flip \| C/C++, MATLAB/Simulink, Python, Crazyflie \
 
 <span style="color:blue"> For more details, please check our report.</span>
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-1 mt-md-0">
+        <iframe height="643" src="https://www.youtube.com/embed/81XYgRthhc0" title="YouTube video player" frameborder="0" style="border: 0px solid #bbb; border-radius: 10px; width: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+    </div>
+    <div class="col-sm-6 mt-1 mt-md-0">
+        <iframe height="643" src="https://www.youtube.com/embed/y1OanjJ8mtQ" title="YouTube video player" frameborder="0" style="border: 0px solid #bbb; border-radius: 10px; width: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+    </div>
+</div>
+<div class="caption">
+    Left: LQR hovering <br> Right: Autonomous flip
+</div>
+
 ## Introduction
 
 Aggressive maneuvers for drones have been a topic studied for a long time. The limited computing power and sensor
@@ -89,18 +101,6 @@ tuned attitude rate PID, and PID vs. LQR stabilizer. Single flip is tested first
 </div>
 <div class="caption">
     Snapshots of our flipping maneuver from the demo video
-</div>
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-1 mt-md-0">
-        <iframe height="600" src="https://www.youtube.com/embed/81XYgRthhc0" title="YouTube video player" frameborder="0" style="border: 0px solid #bbb; border-radius: 10px; width: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-    </div>
-    <div class="col-sm-6 mt-1 mt-md-0">
-        <iframe height="600" src="https://www.youtube.com/embed/y1OanjJ8mtQ" title="YouTube video player" frameborder="0" style="border: 0px solid #bbb; border-radius: 10px; width: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-    </div>
-</div>
-<div class="caption">
-    Left: LQR hovering <br> Right: Autonomous flip
 </div>
 
 ## Conclusions
