@@ -36,7 +36,15 @@ By addressing these motivations, our project can contribute valuable insights to
     Go1 robot is able to traverse challenging terrain: steps, gaps, narrow beams
 </div>
 
-## Conclusions
+## Approaches
 
 Our research lays the foundation for a comprehensive benchmark in evaluating diverse learning-based approaches for robot agility. We introduce three distinct baselines: i) specialist policies that acquire individual skills through on-policy reinforcement learning; ii) a hierarchical structure featuring a selector policy that learns to choose the appropriate behavior among these specialists; and iii) a true generalist policy that simultaneously learns to handle all tasks. Additionally, we explore the selector policy's performance under two training paradigms: on-policy reinforcement learning and imitation learning based on an oracle policy.
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/irl/policy_selector.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The hierachical structure features a selector policy that learns to choose the appropriate behavior among these specialists. This can be trained via on-policy reinforcement learning or imitation learning based on an oracle policy.
+</div>
