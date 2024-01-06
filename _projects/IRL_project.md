@@ -40,6 +40,12 @@ By addressing these motivations, our project can contribute valuable insights to
 
 Our research lays the foundation for a comprehensive benchmark in evaluating diverse learning-based approaches for robot agility. We introduce three distinct baselines: i) specialist policies that acquire individual skills through on-policy reinforcement learning; ii) a hierarchical structure featuring a selector policy that learns to choose the appropriate behavior among these specialists; and iii) a true generalist policy that simultaneously learns to handle all tasks. Additionally, we explore the selector policy's performance under two training paradigms: on-policy reinforcement learning and imitation learning based on an oracle policy.
 
+We seek to answer these questions:
+
+- Do a specialist generalize to new terrains, e.g., can the robot traverse gap terrains with learned climbing skills?
+- Do the generalist benefit from learning multiple skills, e.g., can climbing and leaping skills help each other while learned simultaneously?
+- Do the hierachical structure outperform the generalist, e.g., should we instead leverage modular approaches -- a high-level task/skill selector and low-level skills?
+
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/irl/policy_selector.png" title="" class="img-fluid rounded z-depth-1" %}
