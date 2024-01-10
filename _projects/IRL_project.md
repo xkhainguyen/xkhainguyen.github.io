@@ -42,9 +42,9 @@ Our research lays the foundation for a comprehensive benchmark in evaluating div
 
 We seek to answer these questions:
 
-- Do a specialist generalize to new terrains, e.g., can the robot traverse gap terrains with learned climbing skills?
-- Do the generalist benefit from learning multiple skills, e.g., can climbing and leaping skills help each other while learned simultaneously?
-- Do the hierachical structure outperform the generalist, e.g., should we instead leverage modular approaches -- a high-level task/skill selector and low-level skills?
+- Does a specialist generalize to new terrains, e.g., can the robot traverse gap terrains with learned climbing skills?
+- Does the generalist benefit from learning multiple skills, e.g., can climbing and leaping skills help each other while learned simultaneously?
+- Does the hierachical structure outperform the generalist, e.g., should we instead leverage modular approaches -- a high-level task/skill selector and low-level skills?
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
