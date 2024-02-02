@@ -24,7 +24,7 @@ I am a graduate student in the [MS in Mechanical Engineering--Research](https://
 
 I am currently a [Vingroup Scholar](https://scholarships.vinuni.edu.vn/) with the mission to lead and advance the development of science and technology in Vietnam in the future.
 
-Previously, I graduated with a [BS in Control Engineering and Automation--Talent Program](https://seee.hust.edu.vn/en_US/talented) from [Hanoi University of Science and Technology (HUST)](https://en.hust.edu.vn/). I have ~2 years of experience with Viettel Aerospace Institute as an Autopilot Engineer.
+Previously, I graduated with a [BS in Control Engineering and Automation--Talent Program](https://seee.hust.edu.vn/en_US/talented) from [Hanoi University of Science and Technology (HUST)](https://en.hust.edu.vn/). I have ~2 years of experience in autopilot systems with Viettel Aerospace Institute.
 
 <p style="text-align:center">
   <a href="mailto:xkhai@cmu.edu">Email</a> &nbsp;/&nbsp;
