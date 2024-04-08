@@ -42,4 +42,4 @@ Previously, I graduated with a [BS in Control Engineering and Automation--Talent
 
 My research focuses on the intersection of `control theory`, `numerical optimization`, and `machine learning`, aiming to create novel theoretical frameworks and efficient computational machinery for decision-making in *open-world agile and safe robotics*.
 
-<strong><span style="color:red">I am seeking PhD positions beginning Fall 2024!</span></strong>
+<strong><span style="color:tomato">I am seeking PhD positions beginning Fall 2024!</span></strong>
