@@ -28,13 +28,12 @@ Previously, I graduated with a [BS in Control Engineering and Automation--Talent
 
 <p style="text-align:center">
   <a href="mailto:xkhai@cmu.edu">Email</a> &nbsp;/&nbsp;
-  <!-- <a href="data/JonBarron-CV.pdf">CV</a> &nbsp;/&nbsp; -->
+  <a href="assets/pdf/CV_Khai.pdf">CV</a> &nbsp;/&nbsp;
   <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp; -->
-  <!-- <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Google Scholar</a> &nbsp;/&nbsp; -->
+  <a href="https://scholar.google.com/citations?user=ex03GKkAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
   <a href="https://www.linkedin.com/in/khainx">LinkedIn</a> &nbsp;/&nbsp;
   <a href="https://twitter.com/khainguyenx">Twitter</a> &nbsp;/&nbsp;
-  <a href="https://github.com/xkhainguyen/">GitHub</a> &nbsp;/&nbsp;
-  <a href="assets/pdf/CV_Khai.pdf">CV</a>
+  <a href="https://github.com/xkhainguyen/">GitHub</a>
 </p>
 
 
