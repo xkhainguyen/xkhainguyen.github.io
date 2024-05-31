@@ -27,7 +27,7 @@ I am currently a [Vingroup Scholar](https://scholarships.vinuni.edu.vn/) with th
 Previously, I graduated with a [BS in Control Engineering and Automation--Talent Program](https://seee.hust.edu.vn/en_US/talented) from [Hanoi University of Science and Technology (HUST)](https://en.hust.edu.vn/). I have ~2 years of experience in autopilot systems with Viettel Aerospace Institute.
 
 <p style="text-align:center">
-  <a href="mailto:xkhai@cmu.edu">Email</a> &nbsp;/&nbsp;
+  <a href="mailto:khai.nx1201@gmail.com">Email</a> &nbsp;/&nbsp;
   <a href="assets/pdf/CV_Khai.pdf">CV</a> &nbsp;/&nbsp;
   <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp; -->
   <a href="https://scholar.google.com/citations?user=ex03GKkAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
