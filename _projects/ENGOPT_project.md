@@ -3,7 +3,7 @@ layout: page
 title: Legged MPC
 description: "CMU 24-785: Engineering Optimization - Fall 22.<br> 🦿 Quadruped Locomotion Through Nonlinear MPC"
 img: assets/engopt/leg_cropped.gif
-importance: 2
+importance: 3
 category: class
 ---
 This is my group project within the course [24-785: Engineering Optimization](/assets/engopt/Syllabus-1.pdf) at Carnegie Mellon University in Fall 2022 semester. Some key points:

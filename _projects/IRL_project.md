@@ -6,7 +6,7 @@ img: assets/irl/irl_beam.gif
 importance: 1
 category: class
 ---
-This is my project within the course [16-813: Introduction to Robot Learning](https://16-831.github.io/) at Carnegie Mellon University in Fall 2023 semester. Some key points:
+This is my project within the course [16-813: Introduction to Robot Learning](https://16-831.github.io/) at Carnegie Mellon University in Fall 2023 semester. 
 
 Breadth vs Depth: Benchmarking Generalist and Specialist Policies in Robot Agility Learning \| Python, PyTorch, IssacGym, Unitree Go1 \|
  <!-- [[pdf](/assets/ards/F22_ARDS_Report.pdf)] [[slides](https://docs.google.com/presentation/d/1_4_3-siBjZcEE_0RPOMISLzRe4aqkGiOhhM8N28gGm0/edit?usp=sharing)] -->
