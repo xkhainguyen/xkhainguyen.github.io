@@ -20,7 +20,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 # social: true  # includes social icons at the bottom of the page
 ---
 
-I am a graduate student in the [MS in Mechanical Engineering--Research](https://www.meche.engineering.cmu.edu/education/graduate-programs/masters-research.html) program at Carnegie Mellon Univeristy. I am advised by [Zac Manchester](https://www.ri.cmu.edu/ri-faculty/zachary-manchester/) as a member of the [Robotic Exploration Lab](http://roboticexplorationlab.org/), in the Robotics Institute. I worked with [Jesus Tordesillas](http://www.mit.edu/~jtorde/) and [Marco Hutter](https://rsl.ethz.ch/the-lab/people.html) in the [Robotic Systems Lab](https://rsl.ethz.ch/), ETH Zurich within the Robotics Student Fellowship.
+I graduated from the [MS in Mechanical Engineering--Research](https://www.meche.engineering.cmu.edu/education/graduate-programs/masters-research.html) program at Carnegie Mellon Univeristy. I was advised by [Zac Manchester](https://www.ri.cmu.edu/ri-faculty/zachary-manchester/) as a member of the [Robotic Exploration Lab](http://roboticexplorationlab.org/), in the Robotics Institute. I worked with [Jesus Tordesillas](http://www.mit.edu/~jtorde/) and [Marco Hutter](https://rsl.ethz.ch/the-lab/people.html) in the [Robotic Systems Lab](https://rsl.ethz.ch/), ETH Zurich within the Robotics Student Fellowship.
 
 I am a [Vingroup Scholar](https://scholarships.vinuni.edu.vn/) with the mission to lead and advance the development of science and technology in Vietnam in the future.
 
