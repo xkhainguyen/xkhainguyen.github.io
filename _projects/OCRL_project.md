@@ -90,7 +90,7 @@ Below is the pseudo-code of our AL-TVLQR algorithm.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/ocrl/al_alg.png" title="Title" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/ocrl/al_alg.png" title="Title" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -159,7 +159,7 @@ knot points in the horizon.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/ocrl/MPC runtime vs Horizon Length.png" title="Title" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/ocrl/MPC runtime vs Horizon Length.png" title="Title" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -187,7 +187,7 @@ the remainder of the horizon time.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/ocrl/MPC runtime vs time steps.png" title="Title" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/ocrl/MPC runtime vs time steps.png" title="Title" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -216,7 +216,7 @@ the Teensy 4.1.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/ocrl/MPC runtime vs time steps teensy.png" title="Title" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/ocrl/MPC runtime vs time steps teensy.png" title="Title" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

@@ -18,13 +18,13 @@ During my involvement, I worked on integrated planning and control from simulati
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/misc/f110.gif" title="ball and beam" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/misc/f110.gif" title="ball and beam" class="img-fluid rounded z-depth-1" %}
       <div class="caption">
       Autonomous driving during the race.
       </div>
     </div>
     <div class="col-sm-6 mt-3 align-self-center">
-        {% include figure.html path="assets/misc/f110_map.jpg" title="formation control" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/misc/f110_map.jpg" title="formation control" class="img-fluid rounded z-depth-1" %}
       <div class="caption">
       Race map.
       </div>

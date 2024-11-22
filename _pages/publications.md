@@ -8,7 +8,13 @@ years2: [2024, 2021, 2020]
 nav: true
 nav_order: 1
 ---
+
 <!-- _pages/publications.md -->
+
+<!-- Bibsearch Feature -->
+
+<!-- {% include bib_search.liquid %} -->
+
 <div class="publications">
 
 <h1>preprints</h1>
@@ -22,7 +28,7 @@ nav_order: 1
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
-<h1>technical reports &amp; short papers</h1>
+<h1> short papers &amp; reports  </h1>
 
 {% for y in page.years2 %}
   <!-- <h2 class="year">{{y}}</h2> -->

@@ -6,7 +6,7 @@ description: "🦾 MIT 6.4212 - Robotic Manipulation: Perception, Planning, and 
 
 "
 img: assets/img/manipulation.gif
-redirect: https://github.com/xkhainguyen/manipulation
+redirect: none #https://github.com/xkhainguyen/manipulation
 importance: 1
 category: online
 ---

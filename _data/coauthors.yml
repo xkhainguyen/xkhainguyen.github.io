@@ -1,11 +1,27 @@
-"Manchester":
+"manchester":
   - firstname: ["Zac", "Z.", "Zachary"]
     url: https://www.ri.cmu.edu/ri-faculty/zachary-manchester/
 
-"Plancher":
+"plancher":
   - firstname: ["Brian", "B."]
     url: https://brianplancher.com/
 
-"Dao":
+"kang":
+  - firstname: ["Inseung", "I."]
+    url: https://metamobility.cmu.edu/
+
+"kolter":
+  - firstname: ["Zico", "Z."]
+    url: https://zicokolter.com/
+
+"gurumurthy":
+  - firstname: ["Swaminathan", "S."]
+    url: https://swami1995.github.io/
+
+"schoedel":
+  - firstname: ["Sam", "S."]
+    url: https://samschoedel.com/
+
+"dao":
   - firstname: ["Nam", "Phuong Nam", "P. N."]
     url: https://scholar.google.com.vn/citations?user=vXl3j2wAAAAJ&hl=en

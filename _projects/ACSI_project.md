@@ -53,7 +53,7 @@ We split the complex maneuver of flip into five stages to for easier representat
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/acsi/plan_flip.png" title="Title" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/acsi/plan_flip.png" title="Title" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -96,7 +96,7 @@ tuned attitude rate PID, and PID vs. LQR stabilizer. Single flip is tested first
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.html path="assets/acsi/flip_steps.png" title="Title" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/acsi/flip_steps.png" title="Title" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

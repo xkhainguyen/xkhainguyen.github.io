@@ -42,7 +42,7 @@ and SDSOS programming.
 
 In this project, we examine a recent sampling-based method
 of SOS programming that addresses the scalability problem
-in [[html]](https://ieeexplore.ieee.org/document/9304028), and compare it to the traditional SOS approach.
+in [[html]](https://groups.csail.mit.edu/robotics-center/public_papers/Shen20.pdf), and compare it to the traditional SOS approach.
 
 ## Methods
 
@@ -80,7 +80,7 @@ can approximate them as polynomial using a Taylor expansion.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/ards/binary_search_sos.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/ards/binary_search_sos.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -97,7 +97,7 @@ at a set of numerical samples $$\{x_i\}$$ in the algebraic variety.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/ards/sampling_sos.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/ards/sampling_sos.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -127,7 +127,7 @@ could be found.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/ards/vanderpol_roa.png" title="vanderpol roa" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/ards/vanderpol_roa.png" title="vanderpol roa" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -144,7 +144,7 @@ the cart position and joint angle ($$N = 1$$ here).
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/ards/cartpole.png" title="cartpole" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/ards/cartpole.png" title="cartpole" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

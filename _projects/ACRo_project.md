@@ -18,11 +18,11 @@ This is my previous set of projects in the Advanced Control and Robotics (ACRo) 
 
 ### Robust Optimal Control for Nonlinear Systems Based on Adaptive Reinforcement Learning
 
-My undergraduate thesis [[pdf]](assets/pdf/my_thesis.pdf) explored the **superpositional structures**: How could nonlinear control theory improve the robustness and adaptability of standard RL policies in uncertain environments?
+My undergraduate thesis [[pdf]](../assets/pdf/my_thesis.pdf) explored the **superpositional structures**: How could nonlinear control theory improve the robustness and adaptability of standard RL policies in uncertain environments?
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/publication_preview/bachelor_thesis.png" title="system architecture" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/bachelor_thesis.png" title="system architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -36,7 +36,7 @@ RL-based control of second-order nonlinear systems. Matlab simulation results on
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/publication_preview/khai2021thesis2.png" title="disturbance observer" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/khai2021thesis2.png" title="disturbance observer" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -51,7 +51,7 @@ In our journal paper [[html]](https://onlinelibrary.wiley.com/doi/10.1002/rnc.70
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/publication_preview/ijrnc_diagram.png" title="formation control" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/ijrnc_diagram.png" title="formation control" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -62,7 +62,7 @@ Leveraging the **Lyapunov theorem**, my advisor and I derived the uniformly ulti
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-5 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/publication_preview/khai2022formation.gif" title="formation control" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/khai2022formation.gif" title="formation control" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

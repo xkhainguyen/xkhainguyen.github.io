@@ -23,7 +23,7 @@ Nonlinear MPC on Quadruped Robot \| C/C++, OCS2 \| [[pdf](/assets/engopt/24_785_
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/engopt/leg.gif" title="legged mpc" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/engopt/leg.gif" title="legged mpc" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -64,7 +64,7 @@ The general formulation of the optimal control problem can be given by:
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.html path="assets/engopt/formulation.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/engopt/formulation.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -72,7 +72,7 @@ The general formulation of the optimal control problem can be given by:
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/engopt/quadruped_diagram.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/engopt/quadruped_diagram.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -129,7 +129,7 @@ following discretized problem:
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.html path="assets/engopt/formulation2.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/engopt/formulation2.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -155,7 +155,7 @@ on physical principles.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.html path="assets/engopt/good_guess.jpg" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/engopt/good_guess.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -175,7 +175,7 @@ small. The whole SQP was completed in an average of 8 ms.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.html path="assets/engopt/bad_guess.jpg" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/engopt/bad_guess.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
