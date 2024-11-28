@@ -29,4 +29,4 @@ Check out our [[slides]](https://docs.google.com/presentation/d/1pkJnK43eSVaMsvn
 </div>
 
 
-PS: You may see a picture of me falling sleep on the table. It was 4 am :)).
+P/S: You may see a picture of me falling sleep on the table. It was 4 am :)).
