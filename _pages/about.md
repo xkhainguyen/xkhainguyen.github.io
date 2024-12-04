@@ -37,8 +37,8 @@ Previously, I graduated with a [BS in Control Engineering and Automation--Talent
 
 <h2>research</h2>
 
-My goal is to address fundamental challenges in robot control and learning by: **(i) leveraging structure for efficient and generalizable modeling and decision making**, **(ii) closing the loop between offline design and online adaptation**, and **(iii) providing formal guarantees for decision making under uncertainty**.
+I am driven by elegant solution methods in robot learning and control that target high performance, safety guarantees, data efficiency, and robust generalization—key milestones toward embodied intelligence.
 
-I’m open to exploring various theoretical and practical aspects of robotics, drawing on my background in control theory, differentiable optimization, and machine learning.
+I am open to exploring various theoretical and practical aspects of robotics, drawing on my background in control theory, differentiable optimization, and machine learning.
 
 **<span style="color:coral">I am seeking PhD positions beginning Fall 2025!</span>**
