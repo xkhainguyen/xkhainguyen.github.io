@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am joining a stealth startup focused on AI-powered humanoid robots.
+I am currently involved in several projects, including AI-powered humanoid robots, model predictive path integral control, and implicit deep learning.
 
 I graduated from the [MS in Mechanical Engineering--Research](https://www.meche.engineering.cmu.edu/education/graduate-programs/masters-research.html) program at Carnegie Mellon Univeristy. I was advised by [Zac Manchester](https://www.ri.cmu.edu/ri-faculty/zachary-manchester/) as a member of the [Robotic Exploration Lab](http://roboticexplorationlab.org/), in the Robotics Institute. I worked with [Jesus Tordesillas](http://www.mit.edu/~jtorde/) and [Marco Hutter](https://rsl.ethz.ch/the-lab/people.html) in the [Robotic Systems Lab](https://rsl.ethz.ch/), ETH Zurich within the Robotics Student Fellowship.
 
