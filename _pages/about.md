@@ -18,13 +18,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am currently involved in several projects, featuring AI-powered humanoid robots, model predictive path integral control, and implicit deep learning.
+I am currently involved in exciting projects, including AI-powered humanoid robots, sampling-based optimal control, and implicit deep learning.
 
-I graduated from the [MS in Mechanical Engineering--Research](https://www.meche.engineering.cmu.edu/education/graduate-programs/masters-research.html) program at Carnegie Mellon Univeristy. I was advised by [Zac Manchester](https://www.ri.cmu.edu/ri-faculty/zachary-manchester/) as a member of the [Robotic Exploration Lab](http://roboticexplorationlab.org/), in the Robotics Institute. I worked with [Jesus Tordesillas](http://www.mit.edu/~jtorde/) and [Marco Hutter](https://rsl.ethz.ch/the-lab/people.html) in the [Robotic Systems Lab](https://rsl.ethz.ch/), ETH Zurich within the Robotics Student Fellowship.
+I did my MS with [Zac Manchester](https://www.ri.cmu.edu/ri-faculty/zachary-manchester/) as a member of the [Robotic Exploration Lab](http://roboticexplorationlab.org/) at the Robotics Institute, Carnegie Mellon University.  In the summer of 2023, I was a Robotics Student Fellow at the [Robotic Systems Lab](https://rsl.ethz.ch/) at ETH Zurich. I did my [BS in Control Engineering and Automation--Talent Program](https://seee.hust.edu.vn/en_US/talented) at [Hanoi University of Science and Technology](https://en.hust.edu.vn/).
 
 <!-- I am a [Vingroup Scholar](https://scholarships.vinuni.edu.vn/) with the mission to lead and advance the development of science and technology in Vietnam in the future. -->
 
-Previously, I graduated with a [BS in Control Engineering and Automation--Talent Program](https://seee.hust.edu.vn/en_US/talented) from [Hanoi University of Science and Technology](https://en.hust.edu.vn/). I have ~2 years of experience in autopilot systems with Viettel Aerospace Institute.
+<!-- I have ~2 years of experience in autopilot systems with Viettel Aerospace Institute. -->
 
 <a href="mailto:khai.nx1201@gmail.com">Email</a> &nbsp;/&nbsp;
 <a href="CV_Khai.pdf">CV</a> &nbsp;/&nbsp;
@@ -42,4 +42,4 @@ I am driven by elegant solution methods in robot learning and control that targe
 
 I am open to exploring various theoretical and practical aspects of robotics, drawing on my background in control theory, differentiable optimization, and machine learning.
 
-**<span style="color:coral">I am seeking PhD positions beginning Fall 2025!</span>**
+<!-- **<span style="color:coral">I am seeking PhD positions beginning Fall 2025!</span>** -->
