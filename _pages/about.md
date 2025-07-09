@@ -18,9 +18,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am currently involved in exciting projects, including AI-powered humanoid robots, sampling-based optimal control, and implicit deep learning.
+I am currently involved in exciting projects, including AI-powered humanoid robots, sampling-based optimal control, and implicit deep learning. I'm thrilled to continue advancing robotics and AI as I begin my PhD at MIT EECS in Fall 2025.
 
-I did my MS with [Zac Manchester](https://www.ri.cmu.edu/ri-faculty/zachary-manchester/) as a member of the [Robotic Exploration Lab](http://roboticexplorationlab.org/) at the Robotics Institute, Carnegie Mellon University.  In the summer of 2023, I was a Robotics Student Fellow at the [Robotic Systems Lab](https://rsl.ethz.ch/) at ETH Zurich. I did my [BS in Control Engineering and Automation--Talent Program](https://seee.hust.edu.vn/en_US/talented) at [Hanoi University of Science and Technology](https://en.hust.edu.vn/).
+I did my MS with [Zac Manchester](https://www.ri.cmu.edu/ri-faculty/zachary-manchester/) as a member of the [Robotic Exploration Lab](http://roboticexplorationlab.org/) at the Robotics Institute, CMU.  In the summer of 2023, I was a Robotics Student Fellow at the [Robotic Systems Lab](https://rsl.ethz.ch/) at ETH Zurich. I did my [BS in Control Engineering and Automation--Talent Program](https://seee.hust.edu.vn/en_US/talented) at [Hanoi University of Science and Technology](https://en.hust.edu.vn/).
 
 <!-- I am a [Vingroup Scholar](https://scholarships.vinuni.edu.vn/) with the mission to lead and advance the development of science and technology in Vietnam in the future. -->
 
