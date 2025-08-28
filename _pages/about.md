@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am currently involved in exciting projects, including AI-powered humanoid robots, sampling-based optimal control, and implicit deep learning. I'm thrilled to continue advancing robotics and AI as I begin my PhD at MIT EECS in Fall 2025.
+I am a 1st year PhD student at MIT EECS. I am involved in exciting projects, including AI-powered humanoid robots, sampling-based optimal control, and implicit deep learning.
 
 I did my MS with [Zac Manchester](https://www.ri.cmu.edu/ri-faculty/zachary-manchester/) as a member of the [Robotic Exploration Lab](http://roboticexplorationlab.org/) at the Robotics Institute, CMU.  In the summer of 2023, I was a Robotics Student Fellow at the [Robotic Systems Lab](https://rsl.ethz.ch/) at ETH Zurich. I did my [BS in Control Engineering and Automation--Talent Program](https://seee.hust.edu.vn/en_US/talented) at [Hanoi University of Science and Technology](https://en.hust.edu.vn/).
 
@@ -27,7 +27,7 @@ I did my MS with [Zac Manchester](https://www.ri.cmu.edu/ri-faculty/zachary-manc
 <!-- I have ~2 years of experience in autopilot systems with Viettel Aerospace Institute. -->
 
 <a href="mailto:khai.nx1201@gmail.com">Email</a> &nbsp;/&nbsp;
-<a href="CV_Khai.pdf">CV</a> &nbsp;/&nbsp;
+<a href="https://drive.google.com/file/d/1h6jF4Dgg-vmGOYAiaJvk4r16yz5SKjoz/view?usp=sharing">CV</a> &nbsp;/&nbsp;
 <a href="https://github.com/xkhainguyen">GitHub</a> &nbsp;/&nbsp;
 <a href="https://scholar.google.com/citations?user=ex03GKkAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
 <a href="https://www.linkedin.com/in/khainx">LinkedIn</a> &nbsp;/&nbsp;

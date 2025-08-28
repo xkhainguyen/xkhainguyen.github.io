@@ -1,3 +1,7 @@
+```bash
+$ docker compose up
+```
+
 # al-folio
 
 <div align="center">
