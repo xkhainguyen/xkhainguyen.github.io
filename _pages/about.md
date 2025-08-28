@@ -26,7 +26,7 @@ I did my MS with [Zac Manchester](https://www.ri.cmu.edu/ri-faculty/zachary-manc
 
 <!-- I have ~2 years of experience in autopilot systems with Viettel Aerospace Institute. -->
 
-<a href="mailto:khai.nx1201@gmail.com">Email</a> &nbsp;/&nbsp;
+<a href="mailto:khain@mit.edu">Email</a> &nbsp;/&nbsp;
 <a href="https://drive.google.com/file/d/1h6jF4Dgg-vmGOYAiaJvk4r16yz5SKjoz/view?usp=sharing">CV</a> &nbsp;/&nbsp;
 <a href="https://github.com/xkhainguyen">GitHub</a> &nbsp;/&nbsp;
 <a href="https://scholar.google.com/citations?user=ex03GKkAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
