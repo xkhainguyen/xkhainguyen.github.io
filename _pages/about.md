@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a 1st year PhD student at MIT EECS. I am involved in exciting projects, including AI-powered humanoid robots, sampling-based optimal control, and implicit deep learning.
+I am a 1st year PhD student at MIT EECS, working on AI and robotics.
 
 I did my MS with [Zac Manchester](https://www.ri.cmu.edu/ri-faculty/zachary-manchester/) as a member of the [Robotic Exploration Lab](http://roboticexplorationlab.org/) at the Robotics Institute, CMU.  In the summer of 2023, I was a Robotics Student Fellow at the [Robotic Systems Lab](https://rsl.ethz.ch/) at ETH Zurich. I did my [BS in Control Engineering and Automation--Talent Program](https://seee.hust.edu.vn/en_US/talented) at [Hanoi University of Science and Technology](https://en.hust.edu.vn/).
 
