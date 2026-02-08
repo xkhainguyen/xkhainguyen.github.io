@@ -20,7 +20,7 @@ social: false # includes social icons at the bottom of the page
 
 I am a 1st year PhD student at MIT EECS, working on AI and robotics.
 
-I did my MS with [Zac Manchester](https://www.ri.cmu.edu/ri-faculty/zachary-manchester/) as a member of the [Robotic Exploration Lab](http://roboticexplorationlab.org/) at the Robotics Institute, CMU.  I was a Robotics Student Fellow in the [Robotic Systems Lab](https://rsl.ethz.ch/) at ETH Zurich. I did my [BS in Control Engineering and Automation--Talent Program](https://seee.hust.edu.vn/en_US/talented) at [Hanoi University of Science and Technology](https://en.hust.edu.vn/).
+I did my MS with [Zac Manchester](https://www.ri.cmu.edu/ri-faculty/zachary-manchester/) as a member of the [Robotic Exploration Lab](http://roboticexplorationlab.org/) at the Robotics Institute, CMU.  I was a Robotics Student Fellow in the [Robotic Systems Lab](https://rsl.ethz.ch/) at ETH Zurich. I did my [BS in Control Engineering and Automation--Talented Program](https://seee.hust.edu.vn/en/education/elitech-programmes/talented-programme-263492.html) at [HUST](https://en.hust.edu.vn/).
 
 <!-- I am a [Vingroup Scholar](https://scholarships.vinuni.edu.vn/) with the mission to lead and advance the development of science and technology in Vietnam in the future. -->
 
@@ -40,6 +40,6 @@ I did my MS with [Zac Manchester](https://www.ri.cmu.edu/ri-faculty/zachary-manc
 
 I am driven by elegant solution methods that target high performance, safety guarantees, data efficiency, and robust generalization—key milestones toward embodied intelligence.
 
-I am open to exploring various theoretical and practical aspects of embodied intelligence, drawing on my background in robotics, controls, differentiable optimization, and machine learning.
+I explore various theoretical and practical aspects of embodied intelligence, drawing on my background in robotics, controls, differentiable optimization, and machine learning.
 
 <!-- **<span style="color:coral">I am seeking PhD positions beginning Fall 2025!</span>** -->
