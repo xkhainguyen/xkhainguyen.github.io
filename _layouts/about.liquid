@@ -25,7 +25,7 @@ layout: default
             {% assign profile_image_class = 'img-fluid z-depth-1
       rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{site.profile}}) {{ site.max_width | minus: 150 | times: 0.1 }}px, (min-width: 576px) 25vw, 80vw"{% endcapture %}
+          {% capture sizes %}(min-width: {{site.profile}}) {{ site.max_width | minus: 200 | times: 0.1 }}px, (min-width: 576px) 25vw, 80vw"{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
             cache_bust=true
