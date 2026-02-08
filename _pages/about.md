@@ -18,20 +18,16 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a 1st year PhD student at MIT EECS, working on AI and robotics.
+I am a first-year PhD student at MIT EECS, working on AI and robotics. 
 
-I did my MS with [Zac Manchester](https://www.ri.cmu.edu/ri-faculty/zachary-manchester/) as a member of the [Robotic Exploration Lab](http://roboticexplorationlab.org/) at the Robotics Institute, CMU.  I was a Robotics Student Fellow in the [Robotic Systems Lab](https://rsl.ethz.ch/) at ETH Zurich. I did my [BS in Control Engineering and Automation--Talented Program](https://seee.hust.edu.vn/en/education/elitech-programmes/talented-programme-263492.html) at [HUST](https://en.hust.edu.vn/).
+I earned my MS at CMU with Zac Manchester in the [Robotic Exploration Lab](http://roboticexplorationlab.org/), and my BS in Control Engineering and Automation at [HUST](https://seee.hust.edu.vn/en/). I have also been a Robotics Student Fellow in the [Robotic Systems Lab](https://rsl.ethz.ch/) at ETH Zurich, and worked in R&D at [VinRobotics](https://vinrobotics.net/) and [Viettel Aerospace Institute](https://www.linkedin.com/company/viettelaerospace/posts/?feedView=all).
 
-<!-- I am a [Vingroup Scholar](https://scholarships.vinuni.edu.vn/) with the mission to lead and advance the development of science and technology in Vietnam in the future. -->
-
-<!-- I have ~2 years of experience in autopilot systems with Viettel Aerospace Institute. -->
-
-<a href="mailto:khain@mit.edu">Email</a> &nbsp;/&nbsp;
-<a href="https://drive.google.com/file/d/1h6jF4Dgg-vmGOYAiaJvk4r16yz5SKjoz/view?usp=sharing">CV</a> &nbsp;/&nbsp;
-<a href="https://github.com/xkhainguyen">GitHub</a> &nbsp;/&nbsp;
-<a href="https://scholar.google.com/citations?user=ex03GKkAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
-<a href="https://www.linkedin.com/in/khainx">LinkedIn</a> &nbsp;/&nbsp;
-<a href="https://x.com/khainguyenx">X</a>
+<a href="mailto:khain@mit.edu">email</a> &nbsp;/&nbsp;
+<a href="https://drive.google.com/file/d/1h6jF4Dgg-vmGOYAiaJvk4r16yz5SKjoz/view?usp=sharing">cv</a> &nbsp;/&nbsp;
+<a href="https://github.com/xkhainguyen">github</a> &nbsp;/&nbsp;
+<a href="https://scholar.google.com/citations?user=ex03GKkAAAAJ&hl=en">google scholar</a> &nbsp;/&nbsp;
+<a href="https://www.linkedin.com/in/khainx">linkedin</a> &nbsp;/&nbsp;
+<a href="https://x.com/khainguyenx">x</a>
 
 
 <br>
