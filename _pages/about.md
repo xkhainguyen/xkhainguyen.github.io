@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: ai_prof_pic.jpg
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
@@ -27,7 +27,7 @@ I earned my MS at CMU with Zac Manchester in the [Robotic Exploration Lab](http:
 <a href="https://github.com/xkhainguyen">github</a> &nbsp;/&nbsp;
 <a href="https://scholar.google.com/citations?user=ex03GKkAAAAJ&hl=en">google scholar</a> &nbsp;/&nbsp;
 <a href="https://www.linkedin.com/in/khainx">linkedin</a> &nbsp;/&nbsp;
-<a href="https://x.com/khainguyenx">x</a>
+<a href="https://x.com/khai_ngx_">x</a>
 
 
 <br>
