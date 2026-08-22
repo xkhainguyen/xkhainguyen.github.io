@@ -198,6 +198,8 @@ name {
   max-height: 4000px;
 }
 .news-list .news-item {
+  display: flex;
+  align-items: baseline;
   margin: 0 0 8px 0;
   font-size: 1em;
   line-height: 1.4;
@@ -208,10 +210,14 @@ name {
   margin-bottom: 0;
 }
 .news-list .news-date {
+  flex: 0 0 74px;
   color: #888;
   font-size: 0.95em;
-  margin-right: 8px;
+  margin-right: 14px;
   font-variant-numeric: tabular-nums;
+}
+.news-list .news-body {
+  flex: 1;
 }
 .news-fade {
   position: absolute;
