@@ -97,6 +97,72 @@ name {
   line-height: 1.4;
 }
 
+/* Featured open-source callout */
+.oss-card {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  margin-top: 14px;
+  padding: 16px 18px;
+  border: 1px solid #e6ebf1;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #fbfdff 0%, #f6f9fc 100%);
+}
+.oss-logo {
+  flex: 0 0 132px;
+  width: 132px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border: 1px solid #eef2f6;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.oss-logo img {
+  max-width: 118px;
+  max-height: 82px;
+  object-fit: contain;
+}
+.oss-body { flex: 1; min-width: 0; }
+.oss-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+.oss-title a { color: #1772d0; }
+.oss-badges {
+  display: inline-flex;
+  gap: 8px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.oss-badges img { height: 18px; vertical-align: middle; }
+.oss-desc {
+  margin: 6px 0 10px 0;
+  color: #333;
+  line-height: 1.45;
+}
+.oss-langs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+.oss-langs span {
+  font-size: 12px;
+  color: #55606b;
+  background: #eef3f8;
+  border: 1px solid #e2e9f0;
+  border-radius: 999px;
+  padding: 2px 9px;
+}
+.oss-links a { margin-right: 12px; font-size: 14px; }
+@media (max-width: 600px) {
+  .oss-card { flex-direction: column; align-items: flex-start; }
+  .oss-logo { width: 100%; flex-basis: auto; }
+}
+
 .star-badge {
   display: inline-block;
   margin-left: 8px;
