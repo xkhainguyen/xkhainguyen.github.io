@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a first-year PhD student at MIT EECS, working on AI and robotics. 
+I'm a PhD student at MIT, working on AI and robotics. I'm currently advised by [Priya Donti](https://priyadonti.com/) and [Pulkit Agrawal](https://people.csail.mit.edu/pulkitag/).
 
 I earned my MS at CMU with Zac Manchester in the [Robotic Exploration Lab](http://roboticexplorationlab.org/), and my BS in Control Engineering and Automation at [HUST](https://seee.hust.edu.vn/en/). I have also been a Robotics Student Fellow in the [Robotic Systems Lab](https://rsl.ethz.ch/) at ETH Zurich, and worked in R&D at [VinRobotics](https://vinrobotics.net/) and [Viettel Aerospace Institute](https://www.linkedin.com/company/viettelaerospace/posts/?feedView=all).
 
@@ -34,7 +34,7 @@ I earned my MS at CMU with Zac Manchester in the [Robotic Exploration Lab](http:
 
 <h2>research</h2>
 
-I am driven by elegant solution methods that target high performance, safety guarantees, data efficiency, and robust generalization—key milestones toward embodied intelligence.
+I'm driven by elegant solution methods that target high performance, safety guarantees, data efficiency, and robust generalization—key milestones toward embodied intelligence.
 
 I explore various theoretical and practical aspects of embodied intelligence, drawing on my background in robotics, controls, differentiable optimization, and machine learning.
 
