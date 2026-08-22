@@ -12,45 +12,38 @@
 <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
 <tr><td>
 
-  <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
-  <tr><td>
-    <p class="bio-links" style="margin-top:16px">
-      <a href="../index.html">home</a> &nbsp;/&nbsp;
-      <a href="../projects.html">projects</a>
+  <div class="crumbs">
+    <a href="../index.html">home</a><span class="sep">/</span><a href="../projects.html">projects</a>
+  </div>
+
+  <div class="proj-head">
+    <div class="kicker">Lab Research</div>
+    <h1 class="proj-title">Driving MPC</h1>
+    <p class="proj-sub">trajectory optimization and model predictive control for autonomous driving</p>
+  </div>
+
+  <div class="prose">
+
+    <p>
+      This is my Fall 2022 project at the Robotic Exploration Lab at CMU. Some key points:
     </p>
-    <heading>Driving MPC</heading>
-    <p class="project-meta">trajectory optimization and model predictive control for autonomous driving</p>
-  </td></tr>
-  </table>
 
-  <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
-  <tr><td>
-    <div class="prose">
+    <ul>
+      <li>Employed ALTRO, an augmented Lagrange iLQR algorithm, to solve constrained trajectory optimization problems for autonomous driving applications, using bicycle models.</li>
+      <li>Investigated local planning and control frameworks, such as time-varying LQR and model predictive control (MPC) using OSQP, to ensure safe and efficient operation, while handling control limits and obstacles.</li>
+      <li>Algorithms and 3D visualization are implemented in Julia.</li>
+    </ul>
 
-      <p>
-        This is my Fall 2022 project at the Robotic Exploration Lab at CMU. Some key points:
-      </p>
+    <figure>
+      <img src="../media/rex_lab/drivingMPC.gif" alt="Driving MPC replanning">
+      <figcaption>Replan to avoid obstacles and reach the goal.</figcaption>
+    </figure>
 
-      <ul>
-        <li>Employed ALTRO, an augmented Lagrange iLQR algorithm, to solve constrained trajectory optimization problems for autonomous driving applications, using bicycle models.</li>
-        <li>Investigated local planning and control frameworks, such as time-varying LQR and model predictive control (MPC) using OSQP, to ensure safe and efficient operation, while handling control limits and obstacles.</li>
-        <li>Algorithms and 3D visualization are implemented in Julia.</li>
-      </ul>
+  </div>
 
-      <figure>
-        <img src="../media/rex_lab/drivingMPC.gif" alt="Driving MPC replanning">
-        <figcaption>Replan to avoid obstacles and reach the goal.</figcaption>
-      </figure>
-
-    </div>
-  </td></tr>
-  </table>
-
-  <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
-  <tr><td style="padding-top:30px; padding-bottom:24px">
+  <div class="backlink">
     <a href="../projects.html">← back to projects</a>
-  </td></tr>
-  </table>
+  </div>
 
 </td></tr>
 </table>

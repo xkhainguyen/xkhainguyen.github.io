@@ -12,56 +12,48 @@
 <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
 <tr><td>
 
-  <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
-  <tr><td>
-    <p class="bio-links" style="margin-top:16px">
-      <a href="../index.html">home</a> &nbsp;/&nbsp;
-      <a href="../projects.html">projects</a>
-    </p>
-    <heading>TinyMPC</heading>
-    <p class="project-meta">fast and low-memory footprint MPC solver for resource-constrained embedded systems</p>
-  </td></tr>
-  </table>
+  <div class="crumbs">
+    <a href="../index.html">home</a><span class="sep">/</span><a href="../projects.html">projects</a>
+  </div>
 
-  <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
-  <tr><td>
-    <div class="prose">
-
-      <p>
-        I'm co-leading the development of TinyMPC, a specialized control solver for embedded systems.
-        Our main goals are to make it faster and use less memory. In benchmarks, TinyMPC outperforms
-        OSQP in both speed and memory usage on the <em>Teensy microcontroller</em>. We've integrated
-        TinyMPC on the Crazyflie, a 27 g nano-quadrotor, enabling it to maneuver and avoid obstacles
-        effectively.
-      </p>
-
-      <p>
-        But that's not all! TinyMPC is <strong>open-source</strong> and well-documented, ensuring
-        everyone can access real-time optimal control easily.
-      </p>
-
-      <p>
-        For more details, visit <a href="https://tinympc.org">https://tinympc.org</a>.
-      </p>
-
-      <p>Side-story:</p>
-
-      <ul>
-        <li>We started from our Optimal Control &amp; Reinforcement Learning class <a href="ocrl-tinympc.html">project</a>. I experimented with various methods and started with augmented Lagrangian (AL) with linear-quadratic regulator (LQR), which can also handle nonlinear dynamics <a href="https://github.com/RoboticExplorationLab/TinyMPC-AL">[repo]</a>. However, we found these methods to be too slow. We switched to the alternating method of multipliers (ADMM) and are seeing promising results on hardware.</li>
-        <li>I did a perching demo with TinyMPC here just for fun. It crashed since I didn't use any sticking mechanism.</li>
-      </ul>
-
-      <iframe height="433" src="https://www.youtube.com/embed/KoU2wr9nAFI?si=xOhNq-maZIsaCQWE" title="YouTube video player" frameborder="0" style="border: 0px solid #bbb; border-radius: 10px; width: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-
+  <div class="proj-head">
+    <div class="kicker">Embedded MPC</div>
+    <h1 class="proj-title">TinyMPC</h1>
+    <p class="proj-sub">fast and low-memory footprint MPC solver for resource-constrained embedded systems</p>
+    <div class="reslinks">
+      <a href="https://tinympc.org">tinympc.org</a>
     </div>
-  </td></tr>
-  </table>
+  </div>
 
-  <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
-  <tr><td style="padding-top:30px; padding-bottom:24px">
+  <div class="prose">
+
+    <p>
+      I'm co-leading the development of TinyMPC, a specialized control solver for embedded systems.
+      Our main goals are to make it faster and use less memory. In benchmarks, TinyMPC outperforms
+      OSQP in both speed and memory usage on the <em>Teensy microcontroller</em>. We've integrated
+      TinyMPC on the Crazyflie, a 27 g nano-quadrotor, enabling it to maneuver and avoid obstacles
+      effectively.
+    </p>
+
+    <p>
+      But that's not all! TinyMPC is <strong>open-source</strong> and well-documented, ensuring
+      everyone can access real-time optimal control easily.
+    </p>
+
+    <p>Side-story:</p>
+
+    <ul>
+      <li>We started from our Optimal Control &amp; Reinforcement Learning class <a href="ocrl-tinympc.html">project</a>. I experimented with various methods and started with augmented Lagrangian (AL) with linear-quadratic regulator (LQR), which can also handle nonlinear dynamics <a href="https://github.com/RoboticExplorationLab/TinyMPC-AL">[repo]</a>. However, we found these methods to be too slow. We switched to the alternating method of multipliers (ADMM) and are seeing promising results on hardware.</li>
+      <li>I did a perching demo with TinyMPC here just for fun. It crashed since I didn't use any sticking mechanism.</li>
+    </ul>
+
+    <iframe height="433" src="https://www.youtube.com/embed/KoU2wr9nAFI?si=xOhNq-maZIsaCQWE" title="YouTube video player" frameborder="0" style="border: 0px solid #bbb; border-radius: 10px; width: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+  </div>
+
+  <div class="backlink">
     <a href="../projects.html">← back to projects</a>
-  </td></tr>
-  </table>
+  </div>
 
 </td></tr>
 </table>
