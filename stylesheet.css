@@ -90,6 +90,24 @@ name {
   line-height: 1.6;
 }
 
+.tldr {
+  display: inline-block;
+  margin: 4px 0 2px 0;
+  color: #555;
+  line-height: 1.4;
+}
+
+.star-badge {
+  display: inline-block;
+  margin-left: 8px;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+.star-badge img {
+  height: 18px;
+}
+
 /* ---------- Thumbnails ---------- */
 .one {
   width: 160px;
