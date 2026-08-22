@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unifying Control and Learning — Khai Nguyen</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+  <link rel="shortcut icon" href="../images/favicon.png">
+</head>
+
+<body>
+<table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+<tr><td>
+
+  <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
+  <tr><td>
+    <p class="bio-links" style="margin-top:16px">
+      <a href="../index.html">home</a> &nbsp;/&nbsp;
+      <a href="../projects.html">projects</a>
+    </p>
+    <heading>Unifying Control and Learning</heading>
+    <p class="project-meta">nonlinear systems; adaptive, robust and optimal control; reinforcement learning</p>
+  </td></tr>
+  </table>
+
+  <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
+  <tr><td>
+    <div class="prose">
+
+      <p>
+        This is my previous set of projects in the Advanced Control and Robotics (ACRo) Group at
+        Hanoi University of Science and Technology, advised by Prof. Phuong Nam Dao. Several papers
+        and thesis are listed in <a href="../index.html">publications</a> page. Some key points:
+      </p>
+
+      <ul>
+        <li>Proposed superpositional and hierachical structures to unify nonlinear control and reinforcement learning in robotics.</li>
+        <li>Explored motion/force robust controller for multiple mobile manipulators to accomplish co-operative tasks.</li>
+        <li>Integrated control theory to boost stability and robustness of reinforcement learning algorithms (actor-critic) by 66%.</li>
+        <li>Devised hierarchical formation control for multi-agent systems; scaled up and simulated with MATLAB/Simulink.</li>
+      </ul>
+
+      <hr>
+
+      <h3>Robust Optimal Control for Nonlinear Systems Based on Adaptive Reinforcement Learning</h3>
+
+      <p>
+        My undergraduate thesis <a href="../assets/pdf/my_thesis.pdf">[pdf]</a> explored the
+        <strong>superpositional structures</strong>: How could nonlinear control theory improve the
+        robustness and adaptability of standard RL policies in uncertain environments?
+      </p>
+
+      <figure>
+        <img src="../assets/img/publication_preview/bachelor_thesis.png" alt="System architecture">
+        <figcaption>Superpositional structure composes RL with robust/adaptive modules</figcaption>
+      </figure>
+
+      <ul>
+        <li>The first contribution is the introduction of time-varying robust integral of the sign of the error (RISE) into RL-based control of second-order nonlinear systems. Matlab simulation results on a 2-DOF robot arm demonstrate the improved performance of the time-varying RISE-based RL scheme in comparison with the original RISE-based RL controller.</li>
+        <li>The second contribution is the disturbance observer-based RL control approach which not only learns the optimal policy but also learns the unknown disturbances. To verify the advantages of the proposed control structure, a comparison with the original RL-based method is made, implementing a surface vessel system simulation.</li>
+      </ul>
+
+      <figure>
+        <img src="../assets/img/publication_preview/khai2021thesis2.png" alt="Disturbance observer">
+        <figcaption>A disturbance observer enables online adaptation, reducing tracking errors by 66% and sample number by 3 times</figcaption>
+      </figure>
+
+      <hr>
+
+      <h3>Formation Control Scheme with Reinforcement Learning Strategy for a Group of Multiple Surface Vehicles</h3>
+
+      <p>
+        In our journal paper
+        <a href="https://onlinelibrary.wiley.com/doi/10.1002/rnc.7083">[html]</a>, I proposed a
+        <strong>hierarchical structure</strong> for a multi-vessel system, including a centralized
+        formation controller and a low-level tracking policy for each agent.
+      </p>
+
+      <figure>
+        <img src="../assets/img/publication_preview/ijrnc_diagram.png" alt="Formation control diagram">
+        <figcaption>The hierachical structure composes high-level formation control with low-level RL policies</figcaption>
+      </figure>
+
+      <p>
+        Leveraging the <strong>Lyapunov theorem</strong>, my advisor and I derived the uniformly
+        ultimate boundedness stability (UUB) of the entire system.
+      </p>
+
+      <figure>
+        <img src="../assets/img/publication_preview/khai2022formation.gif" alt="Formation tracking">
+        <figcaption>Formation tracking with the proposed framework</figcaption>
+      </figure>
+
+    </div>
+  </td></tr>
+  </table>
+
+  <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
+  <tr><td style="padding-top:30px; padding-bottom:24px">
+    <a href="../projects.html">← back to projects</a>
+  </td></tr>
+  </table>
+
+</td></tr>
+</table>
+
+</body>
+</html>

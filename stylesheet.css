@@ -108,6 +108,66 @@ name {
   height: 18px;
 }
 
+/* ---------- Project subpages ---------- */
+.prose {
+  line-height: 1.6;
+  color: #222;
+}
+.prose h2 {
+  font-size: 20px;
+  margin: 28px 0 10px 0;
+}
+.prose h3 {
+  font-size: 16px;
+  margin: 22px 0 8px 0;
+}
+.prose p {
+  margin: 12px 0;
+}
+.prose ul {
+  margin: 10px 0;
+  padding-left: 22px;
+}
+.prose li {
+  margin: 4px 0;
+}
+.prose hr {
+  border: none;
+  border-top: 1px solid #e2e2e2;
+  margin: 24px 0;
+}
+.prose figure {
+  margin: 18px 0;
+  text-align: center;
+}
+.prose figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+.prose figcaption {
+  margin-top: 8px;
+  color: #888;
+  font-size: 13px;
+  line-height: 1.35;
+}
+.fig-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 18px 0;
+}
+.fig-row figure {
+  flex: 1 1 300px;
+  margin: 0;
+}
+.project-meta {
+  color: #555;
+  margin: 4px 0 18px 0;
+}
+
 /* ---------- Thumbnails ---------- */
 .one {
   width: 160px;
