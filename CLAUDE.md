@@ -23,8 +23,10 @@ Jon Barron / younghyopark.me style.)
   Pages with LaTeX load MathJax from a CDN.
 - `stylesheet.css` — the single stylesheet (Lato font, `#1772d0` links / `#f09228` hover,
   thumbnail/figure/abstract/oss-card styles, mobile `@media (max-width:600px)` rules).
-- `images/` — thumbnails, favicon, profile photo. `files/` — linked PDFs. `media/` —
-  self-contained assets for the project subpages.
+- `assets/site/` — favicon + profile photo. `assets/publications/<key>/` — each paper's
+  thumbnail and any linked PDFs. `assets/projects/<slug>/` — each project's thumbnail and
+  its subpage figures/PDFs. Assets are deduplicated: a file shared by a paper and a project
+  lives once under `assets/publications/` and is referenced from the project subpage.
 - `.nojekyll` — tells GitHub Pages to serve the files as-is (no Jekyll build).
 
 ## Content model
