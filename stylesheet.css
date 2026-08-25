@@ -54,6 +54,10 @@ a:hover {
   text-decoration: none;
 }
 
+body {
+  padding-top: 40px;
+}
+
 body,
 td,
 th,
