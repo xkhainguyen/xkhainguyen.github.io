@@ -54,7 +54,9 @@
     <heading>news</heading>
     <div class="news-wrap" id="newsWrap">
       <div class="news-list" id="newsList">
-        <p class="news-item"><span class="news-date">Jul 2026</span><span class="news-body"><a href="http://contact-uan.csail.mit.edu/">Contact-UAN</a> won the Best Paper Award at the RSS 2026 Workshop on <a href="https://robot-worldmodels.github.io/index.html">Robot World Models</a>.</span></p>
+        <p class="news-item"><span class="news-date">Sep 2026</span><span class="news-body"><a href="https://joga.csail.mit.edu/">Joga</a>, our humanoid soccer system with active vision, is out. ⚽</span></p>
+        <p class="news-item"><span class="news-date">Sep 2026</span><span class="news-body"><a href="https://contact-uan.csail.mit.edu/">Contact-UAN</a> was accepted at CoRL 2026.</span></p>
+        <p class="news-item"><span class="news-date">Jul 2026</span><span class="news-body"><a href="https://contact-uan.csail.mit.edu/">Contact-UAN</a> won the Best Paper Award at the RSS 2026 Workshop on <a href="https://robot-worldmodels.github.io/index.html">Robot World Models</a>.</span></p>
         <p class="news-item"><span class="news-date">Jun 2026</span><span class="news-body"><a href="https://arxiv.org/pdf/2505.13549">TD-GRPC</a> was accepted at IROS 2026.</span></p>
         <p class="news-item"><span class="news-date">May 2026</span><span class="news-body">I served on the program committee for the <a href="https://sites.google.com/view/roboarch-icra26">RoboARCH</a> workshop at ICRA 2026.</span></p>
         <p class="news-item"><span class="news-date">Jan 2026</span><span class="news-body"><a href="https://arxiv.org/abs/2403.18149">Conic-TinyMPC</a> was accepted at ICRA 2026.</span></p>
@@ -147,6 +149,39 @@
 
   <table width="100%" border="0" align="center" cellspacing="0" cellpadding="20" class="rows">
 
+    <!-- Joga -->
+    <tr>
+      <td width="180" valign="middle" align="left" style="padding-left:0">
+        <div class="one"><img loading="lazy" src="assets/publications/joga/thumb.gif" alt="Joga humanoid soccer skills"></div>
+      </td>
+      <td valign="middle">
+        <papertitle>Joga: Learning Agile Humanoid Soccer Skills with Active Vision</papertitle><br>
+        Avinash Narula*, <strong>Khai Nguyen*</strong>, Nolan Fey*, Venki Parsuram, John Marangola, Martin Peticco, Pulkit Agrawal<br>
+        <em>Preprint</em>, 2026<br>
+        <span class="tldr">Full-stack humanoid dribbling, shooting, passing, and receiving with an actuated neck for active vision, aligning the simulator to hardware from minutes of real data.</span><br>
+        <a href="https://joga.csail.mit.edu/">project page</a> /
+        <a href="https://joga.csail.mit.edu/demo/">interactive</a> /
+        <a href="https://joga.csail.mit.edu/static/joga.pdf">pdf</a>
+      </td>
+    </tr>
+
+    <!-- Contact-UAN -->
+    <tr>
+      <td width="180" valign="middle" align="left" style="padding-left:0">
+        <div class="one"><img loading="lazy" src="assets/publications/contact-uan/thumb.gif" alt="Contact-UAN humanoid jumping under pushes"></div>
+      </td>
+      <td valign="middle">
+        <papertitle>Contact-UAN: Unsupervised Actuator Networks as a Residual World Model for Humanoid Control</papertitle><br>
+        Nolan Fey*, <strong>Khai Nguyen*</strong>, Yash Prabhu, Gabriel B. Margolis, Pulkit Agrawal<br>
+        <em>Conference on Robot Learning (CoRL)</em>, 2026<br>
+        <em>RSS 2026 Workshop on Robot World Models</em>
+        &nbsp;<span class="paper-note">🏆 Best Paper Award</span><br>
+        <span class="tldr">Corrects the actuator command channel of a simulator with contact-consistent replay, so humanoid policies transfer their learned force interactions to hardware.</span><br>
+        <a href="https://contact-uan.csail.mit.edu/">project page</a> /
+        <a href="https://contact-uan.csail.mit.edu/static/contact-uan.pdf">pdf</a>
+      </td>
+    </tr>
+
     <!-- TD-GRPC -->
     <tr>
       <td width="180" valign="middle" align="left" style="padding-left:0">
@@ -171,8 +206,8 @@
         Ishaan Mahajan*, <strong>Khai Nguyen*</strong>, Sam Schoedel*, Elakhya Nedumaran, Moises Mata, Brian Plancher, Zachary Manchester<br>
         <em>International Conference on Robotics and Automation (ICRA)</em>, 2026<br>
         <span class="tldr">Extends TinyMPC with second-order-cone constraints and code generation, bringing conic MPC to microcontrollers.</span><br>
-        <a href="https://arxiv.org/abs/2403.18149">arXiv</a> /
         <a href="https://tinympc.org">project page</a> /
+        <a href="https://arxiv.org/abs/2403.18149">arXiv</a> /
         <a href="https://github.com/tinympc">code</a>
       </td>
     </tr>
@@ -201,8 +236,8 @@
         Swaminathan Gurumurthy, <strong>Khai Nguyen</strong>, Arun Bishop, Zachary Manchester, Zico Kolter<br>
         <em>Conference on Robot Learning (CoRL)</em>, 2025<br>
         <span class="tldr">Casts MPC as a deep equilibrium model, jointly solving the control optimization and network inference in one fixed point.</span><br>
-        <a href="https://openreview.net/forum?id=Ty7xx0pn0a">openreview</a> /
-        <a href="https://sites.google.com/view/deq-mpc">project page</a>
+        <a href="https://sites.google.com/view/deq-mpc">project page</a> /
+        <a href="https://openreview.net/forum?id=Ty7xx0pn0a">openreview</a>
         <!-- <a href="https://github.com/swami1995/DEQ-MPC">code</a> -->
       </td>
     </tr>
@@ -218,8 +253,8 @@
         <em>Transactions on Machine Learning Research (TMLR)</em>, 2025
         &nbsp;<span class="paper-note paper-tooltip" tabindex="0">✨ J2C Certificate<span class="paper-tooltip-content"><span>J2C Certificate; presented at ICLR 2026.</span></span></span><br>
         <span class="tldr">A sampling-based planner that exploits tensor structure to generate smooth, diverse trajectories efficiently.</span><br>
-        <a href="https://openreview.net/forum?id=fk1ZZdXCE3">openreview</a> /
         <a href="https://sites.google.com/view/tensor-sampling/">project page</a> /
+        <a href="https://openreview.net/forum?id=fk1ZZdXCE3">openreview</a> /
         <a href="https://github.com/anindex/mtp">code</a>
       </td>
     </tr>
@@ -268,8 +303,8 @@
         <em>International Conference on Robotics and Automation (ICRA)</em>, 2024
         &nbsp;<span class="paper-note paper-tooltip" tabindex="0">🏆 Best Paper<span class="paper-tooltip-content"><span>🏆 Best Paper Award in Automation at ICRA 2024.</span><span>🏆 Finalist, Best Conference Paper &amp; Best Student Paper, ICRA 2024.</span><span>🏆 Best Poster Award, CMU MechE Symposium (top 10%).</span><span>🏆 Runner-up, Best Poster Award, TC on Model-based Optimization for Robotics.</span></span></span><br>
         <span class="tldr">A fast, low-memory ADMM-based MPC solver that runs on resource-constrained microcontrollers, demonstrated on tiny drones.</span><br>
-        <a href="https://arxiv.org/abs/2310.16985">arXiv</a> /
         <a href="https://tinympc.org">project page</a> /
+        <a href="https://arxiv.org/abs/2310.16985">arXiv</a> /
         <a href="https://github.com/tinympc">code</a> /
         <a href="https://www.youtube.com/watch?v=NKOrRyhcr6w">video</a> /
         <a href="assets/publications/tinympc/poster.pdf">poster</a>
